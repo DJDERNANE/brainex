@@ -1,0 +1,30 @@
+.acceleration-card {
+    height: 279px;
+    flex-shrink: 0;
+    border-radius: var(--12, 12px);
+    border: 1px solid #141217;
+    background: rgba(20, 18, 23, 0.76);
+    padding: 30px;
+}
+
+.acceleration-card-title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 40.8px;
+    /* 156.923% */
+    letter-spacing: 0.4px;
+    text-align: left;
+}
+.acceleration-card-subtitle{
+    color: #67666E;
+font-size: 16.469px;
+font-weight: 500;
+line-height: 23.8px; /* 144.516% */
+letter-spacing: 0.4px;
+display: flex;
+width: 294.45px;
+height: 142.8px;
+flex-shrink: 0;
+text-align: left;
+padding: 20px 0px;
+}

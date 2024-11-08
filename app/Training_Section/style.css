@@ -1,3 +1,59 @@
+.traing-section{
+
+    background-image: url(taining-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.gradiant-black{
+background: linear-gradient(93deg, rgba(0,0,0,1) 22%, rgba(0,0,0,0.1517857142857143) 74%);
+}
+.combridge{
+    color: var(--white-100, #FFF);
+font-size: 24px;
+font-weight: 400;
+line-height: 150%; /* 36px */
+opacity: 0.6;
+}
+.dashboard-container{
+    background: rgba(255, 255, 255, 0.04);
+    display: flex;
+    padding: 31px var(--8, 8px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+.acceleration-section{
+    color: var(--secondary-text, #858586);
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
+.training-h1{
+    color: var(--white-100, #FFF);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 60px */
+}
+.subtitle{
+    color: var(--secondary-text, #858586);
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
+
+
+
+
+
+
+
+
 .welcome-h1 {
     color: var(--white-100, #FFF);
     font-size: 61.059px;

@@ -1,0 +1,8 @@
+.dashboard-item{
+    display: flex;
+padding: 15px 37px;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #1B1B1E;
+}

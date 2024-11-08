@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export default function AccordionComponent({ items }) {
+export default function AccordionComponent({ items, course=false }) {
   const [openItem, setOpenItem] = useState(null);
 
   const handleAccordionChange = (value) => {
@@ -17,7 +17,7 @@ export default function AccordionComponent({ items }) {
 
   return (
     <Accordion
-      type="single"
+      type={course ? "multiple" : "single"}
       collapsible
       className="w-full text-white"
       onValueChange={handleAccordionChange}
