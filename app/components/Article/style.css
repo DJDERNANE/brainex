@@ -1,0 +1,50 @@
+article {
+    display: flex;
+    width: 391px;
+    height: 467.5px;
+    padding: 213.5px 43.5px 53.42px 43.5px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: var(--12, 12px);
+    border: 1px solid #141217;
+    background: rgba(20, 18, 23, 0.76);
+}
+
+.article-title {
+    display: flex;
+    width: 294px;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--white-100, #FFF);
+    font-size: 32.672px;
+    line-height: 40.8px;
+    letter-spacing: 0.4px;
+}
+
+.article-subtitle {
+    display: flex;
+    width: 294.45px;
+    height: 142.8px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #67666E;
+    font-size: 16.469px;
+    line-height: 23.8px;
+
+    letter-spacing: 0.4px;
+}
+.article-image {
+    height: 213px;
+}
+.innovation-icons{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    z-index: 100;
+}

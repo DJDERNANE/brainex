@@ -1,0 +1,29 @@
+.accordion-open{
+    background: var(--segs, linear-gradient(83deg, #00C887 -2.87%, #0500FF 138.65%));
+    padding: 20px;
+}
+.accordion-close{
+    background: linear-gradient(180deg, #141217 0%, #0E0C12 100%);
+    padding: 20px;
+}
+.accordion-title, .accordion-title:hover{
+    color: var(--white-100, #FFF);
+    font-size: 24.703px;
+    line-height: 30.6px; /* 123.871% */
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+.accordion-desc{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16.469px;
+line-height: 23.8px; /* 144.516% */
+letter-spacing: 0.4px;
+}
+.accordion-title svg {
+    color: var(--white-100, #FFF);
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    border-radius: 25.5px;
+    padding: 5px;
+    background: var(--white-10, rgba(255, 255, 255, 0.10));
+}

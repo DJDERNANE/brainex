@@ -1,0 +1,34 @@
+
+nav {
+    background: rgba(17, 17, 17, 0.53);
+    backdrop-filter: blur(27.5px);
+  }
+  
+  ul li a {
+    color: #E2E1E5;
+    font-size: 14.318px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50.83px;
+    letter-spacing: 0.128px;
+  }
+  
+  ul li {
+    display: flex;
+    padding: var(--4, 4px) var(--16, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .btn-navbar {
+    display: flex;
+    width: 135.45px;
+    height: 39.09px;
+    padding: 9.705px 14.68px 11.535px 14.87px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 51px;
+    background: #191919;
+  }
