@@ -1,0 +1,8 @@
+.contact-container-form{
+    width: 100%;
+    padding: 24px;
+    flex-wrap: wrap;
+    height: max-content;
+    border-radius: var(--16, 16px);
+    background: var(--Primary-Light, #F7F9FB);
+}

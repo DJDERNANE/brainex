@@ -1,9 +1,9 @@
 
 import "./style.css"
 
-export default function Article({ title, subtitle, key, img, icon=null, contain_img=false}) {
+export default function Article({ title, subtitle, img, icon=null, contain_img=false}) {
     return (
-        <article className="relative" key={key}>
+        <article className="relative">
             <div className="article-image ">
                 {
                     contain_img &&  <img src={img} alt="brainex" className="innovation-icons"/>
