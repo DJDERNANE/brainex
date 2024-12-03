@@ -6,6 +6,9 @@
     background: rgba(20, 18, 23, 0.76);
     padding: 30px;
 }
+.acceleration-card.gris{
+    background: #1A1A1A;;
+}
 
 .acceleration-card-title {
     font-size: 26px;

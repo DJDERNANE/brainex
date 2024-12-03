@@ -16,7 +16,7 @@ export default function Innovation() {
         },
         {
             title: "Ethical AI Commitment",
-            description: "At BrainEx, we are committed to the responsible development and deployment of AI technologies. We prioritize ethical considerations in all aspects of our work, ensuring that our AI solutions uphold principles of fairness, transparency, and accountability. Our goal is not only to drive innovation but also to ensure that AI benefits society as a whole, promoting trust and confidence in the technology.",
+            description: "At BrainEx, we are committed to the responsible development and deployment of AI technologies. We prioritize ethical considerations in all aspects of our work, ensuring that our AI solutions uphold principles of fairness, transparency, and accountability.",
         }
     ]
     return (

@@ -6,3 +6,6 @@
     border-radius: var(--16, 16px);
     background: var(--Primary-Light, #F7F9FB);
 }
+.contact-container-form input::placeholder {
+    color: var(--Neutral-Dark, #333);
+}

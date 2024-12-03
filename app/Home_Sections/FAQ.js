@@ -3,27 +3,27 @@ export default function FAQ() {
     const items = [
         {
             title: "Work / life balance",
-            content: "Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work.",
+            content: ["Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work."],
         },
         {
             title: "Team environment",
-            content: "Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work.",
+            content: ["Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work."],
         },
         {
             title: "Career development",
-            content: "Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work.",
+            content: ["Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work."],
         },
         {
             title: "Time offline",
-            content: "Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work.",
+            content: ["Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work."],
         },
         {
             title: "Health & wellness benefits",
-            content: "Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work.",
+            content: ["Non-linear workdays are encouraged at Brainex. Wesupport our team members  to take ownership of their timeand schedule in a way that keeps them balanced in life andable have the impact they want at work."],
         },
         {
             title: "The ultimate home office set up",
-            content: "Non-linear workdays are encouraged at Brainex. Wesupport our team members"
+            content: ["Non-linear workdays are encouraged at Brainex. Wesupport our team members"]
         }
     ]
     return (

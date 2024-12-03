@@ -35,15 +35,36 @@ export default function Acceleration_Section() {
             desc: "Collaborate with small groups of students to tackle in-person challenges that test your skills and knowledge.",
 
         },
+        {
+            icon:<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.875 12.4584H37.769C38.5905 12.4584 39.0013 12.4584 39.2486 12.6314C39.4647 12.7825 39.6089 13.0159 39.6474 13.2767C39.6916 13.5753 39.5079 13.9427 39.1405 14.6775L36.7403 19.4779C36.6214 19.7157 36.5619 19.8346 36.5367 19.9596C36.5143 20.0704 36.5118 20.1842 36.529 20.2958C36.5486 20.4218 36.6026 20.5433 36.7106 20.7863L39.2917 26.594C39.6111 27.3126 39.7708 27.6718 39.7185 27.9619C39.6727 28.2154 39.5269 28.4397 39.3139 28.5845C39.0701 28.7501 38.6769 28.7501 37.8906 28.7501H23.1917C22.1182 28.7501 21.5815 28.7501 21.1715 28.5412C20.8109 28.3574 20.5177 28.0642 20.3339 27.7036C20.125 27.2936 20.125 26.7568 20.125 25.6834V21.0834M5.75 40.2501L5.75 6.70841M5.75 21.0834H22.8083C23.8818 21.0834 24.4185 21.0834 24.8285 20.8745C25.1891 20.6908 25.4823 20.3975 25.6661 20.0369C25.875 19.6269 25.875 19.0902 25.875 18.0167V7.85841C25.875 6.78498 25.875 6.24826 25.6661 5.83827C25.4823 5.47762 25.1891 5.18441 24.8285 5.00065C24.4185 4.79175 23.8818 4.79175 22.8083 4.79175L8.81667 4.79175C7.74323 4.79175 7.20652 4.79175 6.79652 5.00065C6.43587 5.18441 6.14266 5.47762 5.9589 5.83827C5.75 6.24826 5.75 6.78498 5.75 7.85841V21.0834Z" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>,
+            title: "Challenges",
+            desc: "Collaborate with small groups of students to tackle in-person challenges that test your skills and knowledge.",
+
+        },
+        {
+            icon:<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.875 12.4584H37.769C38.5905 12.4584 39.0013 12.4584 39.2486 12.6314C39.4647 12.7825 39.6089 13.0159 39.6474 13.2767C39.6916 13.5753 39.5079 13.9427 39.1405 14.6775L36.7403 19.4779C36.6214 19.7157 36.5619 19.8346 36.5367 19.9596C36.5143 20.0704 36.5118 20.1842 36.529 20.2958C36.5486 20.4218 36.6026 20.5433 36.7106 20.7863L39.2917 26.594C39.6111 27.3126 39.7708 27.6718 39.7185 27.9619C39.6727 28.2154 39.5269 28.4397 39.3139 28.5845C39.0701 28.7501 38.6769 28.7501 37.8906 28.7501H23.1917C22.1182 28.7501 21.5815 28.7501 21.1715 28.5412C20.8109 28.3574 20.5177 28.0642 20.3339 27.7036C20.125 27.2936 20.125 26.7568 20.125 25.6834V21.0834M5.75 40.2501L5.75 6.70841M5.75 21.0834H22.8083C23.8818 21.0834 24.4185 21.0834 24.8285 20.8745C25.1891 20.6908 25.4823 20.3975 25.6661 20.0369C25.875 19.6269 25.875 19.0902 25.875 18.0167V7.85841C25.875 6.78498 25.875 6.24826 25.6661 5.83827C25.4823 5.47762 25.1891 5.18441 24.8285 5.00065C24.4185 4.79175 23.8818 4.79175 22.8083 4.79175L8.81667 4.79175C7.74323 4.79175 7.20652 4.79175 6.79652 5.00065C6.43587 5.18441 6.14266 5.47762 5.9589 5.83827C5.75 6.24826 5.75 6.78498 5.75 7.85841V21.0834Z" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>,
+            title: "Challenges",
+            desc: "Collaborate with small groups of students to tackle in-person challenges that test your skills and knowledge.",
+
+        },
     ]
     return (
-        <div className="acceleration-section py-[100px] mx-auto w-[50%]">
+        <div className="acceleration-section py-[100px] mx-auto container">
             <p className="text-white text-center subtitle">Why CambridgeBranex?</p>
             <h1 className="text-center training-h1">Accelerated Learning and Comprehensive Support</h1>
-            <div className="grid grid-cols-2 grid-rows-2 gap-[20px] py-[80px] ">
+            <div className="pb-[260px] pt-[80px] " >
+                <img src="/brainex_courses.png" alt="contact brainex" className="mx-auto h-full" />
+            </div>
+            <p className="text-white text-center subtitle">Why CambridgeBranex?</p>
+            <h1 className="text-center training-h1">Accelerated Learning and Comprehensive Support</h1>
+            <div className="grid grid-cols-3 grid-rows-2 gap-8 py-[80px] ">
                 {
                     items.map((item, index) => (
-                        <Acceleration_Card key={index} icon={item.icon} title={item.title} desc={item.desc} />
+                        <Acceleration_Card key={index} gris={index % 2 === 0 && true} icon={item.icon} title={item.title} desc={item.desc} />
                     ))
                 }
             </div>

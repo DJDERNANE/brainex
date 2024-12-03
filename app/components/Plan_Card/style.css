@@ -2,23 +2,19 @@
     display: flex;
     padding: var(--40, 40px);
     flex-direction: column;
-    align-items: flex-start;
-    gap: var(--28, 28px);
-    flex: 1 0 0;
-    border-radius: var(--16, 16px);
-    background: #131116;
-    color: white;
+    border-radius: 24px;
+    background: #0B0A0E;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
 }
 .plan-card-light{
     display: flex;
     padding: var(--40, 40px);
     flex-direction: column;
-    align-items: flex-start;
-    gap: var(--28, 28px);
-    flex: 1 0 0;
-    border-radius: var(--16, 16px);
-background: var(--Primary-Light, #F7F9FB);
-color: #1C1C1C;
+    border-radius: 24px;
+    background: #101010;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
 }
 
 .plan-card-btn{
@@ -27,21 +23,20 @@ color: #1C1C1C;
     justify-content: center;
     align-items: center;
     gap: var(--8, 8px);
-    align-self: stretch;
     border-radius: var(--16, 16px);
-    background: var(--white-100, #FFF);
-    color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 20px 0px;
 }
 .plan-card-btn-light{
     display: flex;
     padding: var(--16, 16px) var(--24, 24px);
     justify-content: center;
     align-items: center;
-    gap: var(--8, 8px);
-    align-self: stretch;
     border-radius: var(--16, 16px);
-    background: #1C1C1C;
-    color: white;
+    background: #00C881;
+    color: black;
+    margin: 20px 0px;
 }
 .plan-card-time{
     color: var(--black-100, #fff);
@@ -49,27 +44,23 @@ color: #1C1C1C;
     font-size: 48px;
     font-weight: 600;
     line-height: 58px; /* 120.833% */
-}
-.plan-card-time-light{
-    color: #1C1C1C;
-    font-feature-settings: 'ss01' on, 'cv01' on;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 58px; /* 120.833% */
+    margin: 20px 0px;
+    text-align: center;
 }
 .plan-card-name{
-    color: var(--black-100, #fff);
-    font-feature-settings: 'ss01' on, 'cv01' on;
-    font-size: 18px;
+    color: #ADADAD;
+    font-size: 23px;
+    font-style: normal;
     font-weight: 600;
-    line-height: 24px; /* 133.333% */
+    line-height: 27.6px; /* 120% */
+    text-align: center;
 }
-.plan-card-name-light{
-    color: #1C1C1C;
-    font-feature-settings: 'ss01' on, 'cv01' on;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px; /* 133.333% */
+.per_month{
+    color: #ADADAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
 }
 .plan-card-offer{
     color: var(--black-100, #fff);

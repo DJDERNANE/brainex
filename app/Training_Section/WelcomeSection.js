@@ -10,13 +10,9 @@ export default function WelcomeSection() {
         <p className="combridge">
           Cambridge Brainex Academy
         </p>
-        <h1 className="welcome-h1 text-white">
-          Accelerated FullStack <br /> JavaScript Training
+        <h1 className="welcome-h1 text-white w-[60%]">
+        The first Algerian school devoted to the professions of the future
         </h1>
-        <p className="text-white py-4 welcome-subtitle">
-        Start your journey by acquiring a robust <br />
-        technical foundation,
-        </p>
         <ButtonSecondary text="Register now"/> 
       </div>
     </div>

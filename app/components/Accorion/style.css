@@ -27,3 +27,17 @@ letter-spacing: 0.4px;
     padding: 5px;
     background: var(--white-10, rgba(255, 255, 255, 0.10));
 }
+.accordion-close{
+    border-bottom: transparent !important;
+}
+.accordion-course{
+    background: #141217;
+    margin: 10px 0px;
+}
+div.accordion-course[data-state="open"]{
+    background-color: white;
+    color: #141217 !important;
+}
+div.accordion-course[data-state="open"] .accordion-title svg, div.accordion-course[data-state="open"]  .accordion-desc, div.accordion-course[data-state="open"] .accordion-title {
+    color: #141217;
+}

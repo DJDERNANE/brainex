@@ -148,3 +148,9 @@ width: 60%;
     background: #141217;
     color: white;
 }
+article.contain-img:hover ,.services .card:hover{
+    border-radius: 12px;
+    border: 1px solid var(--brand-gradient, #00C887);
+    background: linear-gradient(180deg, rgba(10, 10, 13, 0.00) 48%, rgba(10, 10, 13, 0.01) 56%, rgba(10, 10, 13, 0.88) 100%), linear-gradient(180deg, rgba(22, 20, 26, 0.79) 0%, #0F0D13 100%), url(test.png) no-repeat center center / cover; 
+    box-shadow: 0px 4px 86px 0px #000;
+}

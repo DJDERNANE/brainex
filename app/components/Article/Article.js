@@ -3,8 +3,8 @@ import "./style.css"
 
 export default function Article({ title, subtitle, img, icon=null, contain_img=false}) {
     return (
-        <article className="relative">
-            <div className="article-image ">
+        <article className={`relative ${contain_img && "contain-img"}`}>
+            <div className="article-image  ">
                 {
                     contain_img &&  <img src={img} alt="brainex" className="innovation-icons"/>
                 }

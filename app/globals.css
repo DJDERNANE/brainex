@@ -58,6 +58,11 @@
   }
 }
 
+
+@media (max-width: 500px) {
+  
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -128,4 +133,11 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+.green-text{
+  color: #00C881;
+  font-size: var(--font-size-20, 20px);
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: var(--line-height-30, 30px); /* 150% */
 }

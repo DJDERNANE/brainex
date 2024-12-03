@@ -1,8 +1,8 @@
 .traing-section{
 
-    background-image: url(taining-bg.png);
-    background-position: right;
+    background-image: url(training-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .gradiant-black{
 background: linear-gradient(93deg, rgba(0,0,0,1) 22%, rgba(0,0,0,0.1517857142857143) 74%);
@@ -46,6 +46,46 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 36px */
 }
+   
+.courses-section .innovation-icons {
+    position: relative;
+    top: -40px;
+    left: 0px;
+    margin-bottom: 20px;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+.yellow-subtitle{
+    color: #DF0;
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px; 
+letter-spacing: -0.18px;
+}
+
+.courses-section article:hover{
+    border-radius: var(--12, 12px);
+    border: 1px solid var(--brand-gradient, #00C887);
+    background: linear-gradient(180deg, rgba(10, 10, 13, 0.00) 48%, rgba(10, 10, 13, 0.01) 56%, rgba(10, 10, 13, 0.88) 100%), linear-gradient(180deg, #16141A 0%, #0F0D13 80%);
+    box-shadow: 0px 4px 86px 0px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

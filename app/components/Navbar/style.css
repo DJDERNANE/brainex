@@ -9,7 +9,6 @@ nav {
     font-size: 14.318px;
     font-style: normal;
     font-weight: 500;
-    line-height: 50.83px;
     letter-spacing: 0.128px;
   }
   
@@ -32,3 +31,27 @@ nav {
     border-radius: 51px;
     background: #191919;
   }
+  .submenu{
+    position: absolute;
+    top: 120%;
+    display: none;
+  }
+  .menu{
+    padding: 5px 20px;
+  }
+  .menu:hover .submenu{
+    display: flex;
+  }
+  .menu:hover{
+    border-radius: 15px !important;
+    border: 2px solid #00C887 ;
+    /* border-image: linear-gradient(to right, #00C887, #2384FD) 1; */
+    padding: 4px 16px;
+   
+    
+  }
+  .menu:hover .nav-icon {
+    transform: rotateX(180deg);
+    transform-origin: center;  /* Ensure it rotates around its center */
+    transition: transform 0.5s ease;
+}

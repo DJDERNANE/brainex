@@ -1,7 +1,7 @@
 import "./style.css"
-export default function Acceleration_Card({ icon, title, desc }) {
+export default function Acceleration_Card({ icon, title, desc , gris=false}) {
     return (
-        <div className="acceleration-card">
+        <div className={`acceleration-card ${gris && "gris"}`}>
             <div className="acceleration-card-icon flex items-center justify-end">
                 {
                     icon
