@@ -5,32 +5,32 @@ export default function Expertise_Section() {
         {
             title: "Oil and Gas",
             desc: "Our data science experts specialize in extracting actionable insights from complex datasets.",
-            img: "./service_brainex.png",
+            img: "/service_brainex.png",
         },
         {
             title: "AI Experts",
             desc: "Our AI specialists develop sophisticated algorithms to automate tasks and enhance operational efficiency. ",
-            img: "./ai_experts.png",
+            img: "/ai_experts.png",
         },
         {
             title: "Electronics Specialists",
             desc: "Our team excels in designing and implementing advanced electronic systems.",
-            img: "./electronics_specialists.png",
+            img: "/electronics_specialists.png",
         },
         {
             title: "AI in Agricultur",
             desc: "Our team excels in designing and implementing advanced electronic systems.",
-            img: "./agr-card.png",
+            img: "/agr-card.png",
         },
         {
             title: "AI in Supply chain",
             desc: "Our team excels in designing and implementing advanced electronic systems.",
-            img: "./new-card.png",
+            img: "/new-card.png",
         },
         {
             title: "AI in Healthcare",
             desc: "Our team excels in designing and implementing advanced electronic systems.",
-            img: "./medical-card.png",
+            img: "/medical-card.png",
         },
 
     ]
