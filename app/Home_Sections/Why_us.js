@@ -20,7 +20,7 @@ export default function Why_us() {
         <div className="relative">
             <div className="why-us-section py-4  container ">
                 <p className="text-start text-white py-4 welcome-h1">Why rely us ?</p>
-                <div className="pt-[50px] pb-[200px] flex justify-between relative">
+                <div className="pt-[50px] pb-[200px] flex flex-col md:flex-row justify-between relative">
                     {posts.map((item, index) => (
                         <Article
                             key={index}  // Ensure key is passed here

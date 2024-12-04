@@ -9,11 +9,12 @@
 }
 .sub-menu-content {
     display: flex;
-width: 325px;
-height: 96px;
-padding: var(--20, 20px) 10px;
-align-items: flex-start;
-gap: 10px;
+    width: 325px;
+    height: 100%;
+    padding: var(--20, 20px) 10px;
+    align-items: flex-start;
+    gap: 10px;
+    overflow: scroll;
 }
 .sub-menu-content .title{
     color: var(--white-100, #FFF);
@@ -21,6 +22,18 @@ gap: 10px;
     font-weight: 600;
     line-height: 30.6px; /* 230.075% */
     letter-spacing: 0.4px;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Edge */
+}
+
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    /* For Firefox */
 }
 .sub-menu-content .subtitle{
     color: var(--white-100, #ADABB2);

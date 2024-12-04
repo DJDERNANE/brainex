@@ -8,7 +8,7 @@ import Why_Brainex from "../Training_Section/Why_Brainex";
 import Plans_Section from "../Training_Section/Plans_Section";
 import Contact_Section from "../Training_Section/Contact_Section";
 
-export default function Home() {
+export default function Training_Cours() {
   return (
     <div className="">
         <Navbar />

@@ -17,7 +17,8 @@ export default function SubMenuItem({ subitems, imgs }) {
     };
 
     return (
-        <div className="sub-menu-container submenu">
+        
+        <div className="sub-menu-container submenu grid grid-cols-2">
             <div className="sub-menu-img flex-1 relative">
                 {/* Image will fade out and in on hover */}
                 <img
@@ -27,7 +28,7 @@ export default function SubMenuItem({ subitems, imgs }) {
                     className={`image absolute top-0 left-0 w-full h-full transition-opacity duration-300 ${fadeClass}`}
                 />
             </div>
-            <div className="sub-menu-content flex flex-col p-4 flex-1">
+            <div className="sub-menu-content flex flex-col p-4 flex-1 no-scrollbar ">
                 {subitems.map((item, index) => (
                     <a
                         href={item.link}

@@ -33,8 +33,9 @@ nav {
   }
   .submenu{
     position: absolute;
-    top: 120%;
+    top: 110%;
     display: none;
+
   }
   .menu{
     padding: 5px 20px;

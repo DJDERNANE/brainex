@@ -32,8 +32,8 @@ export default function FAQ() {
             <p className="text-start text-white py-4 welcome-h1">Your FAQ  </p>
             <p>We’re building a decentralized future with an amazing group
                 of people. We can’t wait for you to join us!</p>
-            <div className="flex rounded-lg overflow-hidden h-[600px]">
-                <div className="faq flex-1">
+            <div className="flex rounded-lg  h-[600px] ">
+                <div className="faq flex-1 overflow-scroll no-scrollbar">
                     <AccordionComponent items={items}/>
                 </div>
                 <div className="faq-img flex-1">

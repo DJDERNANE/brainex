@@ -50,7 +50,7 @@ export default function Why_Brainex() {
         <div className=" py-[100px] mx-auto container">
            <p className="green-text p-0 m-0">Why us</p>
            <p className="text-start text-white pb-4 pt-0 welcome-h1">What We Offer</p>
-            <div className=" pb-[200px] flex justify-between">
+            <div className=" pb-[200px] flex flex-col md:flex-row justify-between">
                 {posts.map((item, index) => (
                     <Article
                         key={index}  // Ensure key is passed here

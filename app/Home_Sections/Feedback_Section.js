@@ -31,35 +31,66 @@ export default function Feedback_Section() {
             <div className="w-full relative py-[150px]">
                 <Carousel ref={carouselRef} className="w-full" opts={{ loop: true }}>
                     <CarouselContent className="flex w-full px-3">
-                        <CarouselItem className="px-1 md:basis-1/2 lg:basis-1/3">
+                        {/* Carousel Items */}
+                        <CarouselItem className="px-1 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                             <div className="p-1 w-full">
-                                <Feedback_Card img={'./person.png'} name="John Doe" position="CEO" raiting="4.9" feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt." />
+                                <Feedback_Card
+                                    img={'./person.png'}
+                                    name="John Doe"
+                                    position="CEO"
+                                    raiting="4.9"
+                                    feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt."
+                                />
                             </div>
                         </CarouselItem>
-                        <CarouselItem className="px-1 md:basis-1/2 lg:basis-1/3">
+                        <CarouselItem className="px-1 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                             <div className="p-1 w-full">
-                                <Feedback_Card img={'./person.png'} name="John Doe" position="CEO" raiting="4.9" feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt." />
+                                <Feedback_Card
+                                    img={'./person.png'}
+                                    name="John Doe"
+                                    position="CEO"
+                                    raiting="4.9"
+                                    feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt."
+                                />
                             </div>
                         </CarouselItem>
-                        <CarouselItem className="px-1 md:basis-1/2 lg:basis-1/3">
+                        <CarouselItem className="px-1 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                             <div className="p-1 w-full">
-                                <Feedback_Card img={'./person.png'} name="John Doe" position="CEO" raiting="4.9" feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt." />
+                                <Feedback_Card
+                                    img={'./person.png'}
+                                    name="John Doe"
+                                    position="CEO"
+                                    raiting="4.9"
+                                    feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt."
+                                />
                             </div>
                         </CarouselItem>
-                        <CarouselItem className="px-1 md:basis-1/2 lg:basis-1/3">
+                        <CarouselItem className="px-1 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                             <div className="p-1 w-full">
-                                <Feedback_Card img={'./person.png'} name="John Doe" position="CEO" raiting="4.9" feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt." />
+                                <Feedback_Card
+                                    img={'./person.png'}
+                                    name="John Doe"
+                                    position="CEO"
+                                    raiting="4.9"
+                                    feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt."
+                                />
                             </div>
                         </CarouselItem>
-                        <CarouselItem className="px-1 md:basis-1/2 lg:basis-1/3">
+                        <CarouselItem className="px-1 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                             <div className="p-1 w-full">
-                                <Feedback_Card img={'./person.png'} name="John Doe" position="CEO" raiting="4.9" feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt." />
+                                <Feedback_Card
+                                    img={'./person.png'}
+                                    name="John Doe"
+                                    position="CEO"
+                                    raiting="4.9"
+                                    feedback="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nesciunt."
+                                />
                             </div>
                         </CarouselItem>
                     </CarouselContent>
-                    <div className="custom-prev-next-btn">
+                    <div className="custom-prev-next-btn flex justify-between mt-3">
                         <CarouselPrevious className="custom-prev" />
-                        <CarouselNext className="custom-next" ref={nextButtonRef} /> {/* Use ref here */}
+                        <CarouselNext className="custom-next" ref={nextButtonRef} />
                     </div>
                 </Carousel>
             </div>

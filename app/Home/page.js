@@ -17,12 +17,12 @@ export default function Home() {
     <div className="">
         <Navbar />
         <WelcomeSection />
-        <Trust_us_Section />
+        {/* <Trust_us_Section /> */}
         <Why_us />
         <Innovation />
         <Services />
         <Expertise_Section/>
-        <Feedback_Section/>
+        {/* <Feedback_Section/> */}
         <FAQ/>
         <Subscribe_Section/>
         <FooterSection />

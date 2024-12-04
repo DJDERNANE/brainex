@@ -21,25 +21,25 @@ export default function Innovation() {
     ]
     return (
         <div className="innovation-section py-4 ">
-            <div className="container flex justify-between gap-6">
-            <div>
-                <div className="h-[130px] w-[50px]">
+            <div className="container flex flex-col md:flex-row justify-between gap-6">
+                <div className="">
+                    <div className="h-[130px] w-[50px]">
 
+                    </div>
+                    <p className="text-start text-white py-4 welcome-h1 h-[160px]">AI research and <br /> <span className="innovation">innovation</span></p>
                 </div>
-                <p className="text-start text-white py-4 welcome-h1 h-[160px]">AI research and <br/> <span className="innovation">innovation</span></p>
+
+                <div className="pt-[50px] pb-[200px]">
+                    {posts.map((item, index) => (
+                        <Card
+                            key={index} // Ensure key is passed here
+                            title={item.title}
+                            subtitle={item.description}
+                        />
+                    ))}
+                </div>
             </div>
-            
-            <div className="pt-[50px] pb-[200px]">
-                {posts.map((item, index) => (
-                    <Card
-                        key={index} // Ensure key is passed here
-                        title={item.title}
-                        subtitle={item.description}
-                    />
-                ))}
-            </div>
-            </div>
-            
+
         </div>
     )
 }

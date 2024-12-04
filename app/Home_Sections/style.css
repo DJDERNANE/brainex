@@ -2,8 +2,6 @@
     color: var(--white-100, #FFF);
     font-size: 61.059px;
     font-weight: 500;
-    line-height: 88px;
-    /* 125.289% */
     letter-spacing: 0.4px;
 }
 
@@ -35,10 +33,12 @@
     position: sticky;
     top: 80px;
 }
-.innovation-section{
-    background: linear-gradient(180deg, rgba(123,63,228,0) 38%, rgba(27, 0, 73, 0.664) 74%);
+
+.innovation-section {
+    background: linear-gradient(180deg, rgba(123, 63, 228, 0) 38%, rgba(27, 0, 73, 0.664) 74%);
 
 }
+
 .services-subtitle {
     color: #67666E;
     font-size: 17.5px;
@@ -85,72 +85,147 @@
     padding: 50px 100px;
     margin: 200px auto;
 }
-.subscribe-h1{
+
+.subscribe-h1 {
     color: #0B132A;
-font-size: 35px;
-line-height: 45px; 
+    font-size: 35px;
+    line-height: 45px;
 }
-.expertise-register-h1{
+
+.expertise-register-h1 {
     color: white;
     font-weight: 600;
     font-size: 30px;
 }
-.subscribe-h5{
+
+.subscribe-h5 {
     color: #4F5665;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px; /* 187.5% */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
 }
-.subscribe-btn{
+
+.subscribe-btn {
     border-radius: 51px;
-background: var(--brand-gradient, linear-gradient(260deg, #00C887 42.34%, #2384FD 120.12%));
-width: 240px;
-height: 46px;
-flex-shrink: 0;
+    background: var(--brand-gradient, linear-gradient(260deg, #00C887 42.34%, #2384FD 120.12%));
+    width: 240px;
+    height: 46px;
+    flex-shrink: 0;
 
 }
 
-.expertise-register{
+.expertise-register {
     height: 318px;
     border-radius: 10px;
     background: #481fa1;
     padding: 50px 95px;
     margin: 200px auto;
 }
-.Expertise-register-desc{
+
+.Expertise-register-desc {
     color: rgba(255, 255, 255, 0.76);
 
-font-size: 12.906px;
+    font-size: 12.906px;
 
-line-height: 21px; /* 162.712% */
-width: 60%;
+    line-height: 21px;
+    /* 162.712% */
+    width: 60%;
 }
-.expertise-register-img{
+
+.expertise-register-img {
     position: absolute;
     bottom: 0;
     height: 550px;
     opacity: 0.8;
     filter: drop-shadow(-7px 1px 31px #000000);
 }
-.faq-img img{
+
+.faq-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.custom-prev-next-btn{
+
+.custom-prev-next-btn {
     position: absolute;
     top: -50px;
     right: 50px;
 }
-.custom-prev-next-btn button{
+
+.custom-prev-next-btn button {
     width: 40px;
     height: 40px;
     background: #141217;
     color: white;
 }
-article.contain-img:hover ,.services .card:hover{
+
+article.contain-img:hover, .services .card:hover {
     border-radius: 12px;
     border: 1px solid var(--brand-gradient, #00C887);
-    background: linear-gradient(180deg, rgba(10, 10, 13, 0.00) 48%, rgba(10, 10, 13, 0.01) 56%, rgba(10, 10, 13, 0.88) 100%), linear-gradient(180deg, rgba(22, 20, 26, 0.79) 0%, #0F0D13 100%), url(test.png) no-repeat center center / cover; 
+    background: linear-gradient(180deg, rgba(10, 10, 13, 0.00) 48%, rgba(10, 10, 13, 0.01) 56%, rgba(10, 10, 13, 0.88) 100%), linear-gradient(180deg, rgba(22, 20, 26, 0.79) 0%, #0F0D13 100%), url(test.png) no-repeat center center / cover;
     box-shadow: 0px 4px 86px 0px #000;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Edge */
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    /* For Firefox */
+}
+.accordion-open{
+    border-bottom: 0px;
+}
+@media (max-width: 500px) {
+    .welcome-h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .welcome-subtitle {
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .services-subtitle {
+        width: 100%;
+    }
+
+    .expertise-register {
+        height: 100%;
+        padding: 80px 20px;
+        margin: 200px auto;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .expertise-register-h1 {
+        text-align: center;
+    }
+
+    .Expertise-register-desc {
+        text-align: center;
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .faq-img {
+        display: none;
+    }
+
+    .subscribe-section {
+        height: 100%;
+        width: 90%;
+        margin: 50px auto;
+        padding: 100px 50px;
+        text-align: center;
+
+    }
 }

@@ -17,6 +17,21 @@ export default function Expertise_Section() {
             desc: "Our team excels in designing and implementing advanced electronic systems.",
             img: "./electronics_specialists.png",
         },
+        {
+            title: "AI in Agricultur",
+            desc: "Our team excels in designing and implementing advanced electronic systems.",
+            img: "./agr-card.png",
+        },
+        {
+            title: "AI in Supply chain",
+            desc: "Our team excels in designing and implementing advanced electronic systems.",
+            img: "./new-card.png",
+        },
+        {
+            title: "AI in Healthcare",
+            desc: "Our team excels in designing and implementing advanced electronic systems.",
+            img: "./medical-card.png",
+        },
 
     ]
     return (
@@ -36,14 +51,14 @@ export default function Expertise_Section() {
                 </ul>
             </div>
 
-            <div className="expertise-register py-4  container flex justify-between items-center  ">
+            <div className="expertise-register py-4  container flex flex-col md:flex-row justify-between items-center  ">
                 <div className="flex-[1] ">
                     <p className="text-start text-white py-4 expertise-register-h1 w-[90%]">The first Algerian school devoted to the professions of the future</p>
                     <p className="text-white Expertise-register-desc pb-5">Learn the most in-demand technological skills on the market 
                     with Cambridge Brainex.</p>
-                    <ButtonSecondary text="Register now"/>
+                    <ButtonSecondary text="Register now" addClassName={'md:m-0 m-auto '}/>
                 </div>
-                <div className="flex-[1] ">
+                <div className="md:flex-[1] md:flex hidden ">
                     <img src="/brainex_expertise.png" alt="brainex expertiser"  className="expertise-register-img"/>
                 </div>
             </div>

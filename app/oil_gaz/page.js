@@ -8,8 +8,9 @@ import Why_us from "../OilAndGas_Sections/Why_us";
 import Combridge from "../OilAndGas_Sections/Combridge";
 import Transform from "../OilAndGas_Sections/Transform";
 import Promise from "../OilAndGas_Sections/Promise";
+import Ai from "../OilAndGas_Sections/AI";
 
-export default function Home() {
+export default function Oil_Gaz() {
   return (
     <div className="">
         <Navbar />
@@ -21,6 +22,7 @@ export default function Home() {
         <Plans_Section/>
         <Transform />
         <Promise />
+        <Ai/>
         <FooterSection />
     </div>
   );

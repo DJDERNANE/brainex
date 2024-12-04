@@ -14,15 +14,15 @@ import Feedback_Section from "@/app/Home_Sections/Feedback_Section";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="w-full overflow-hidden">
         <Navbar />
         <WelcomeSection />
-        <Trust_us_Section />
+        {/* <Trust_us_Section /> */}
         <Why_us />
         <Innovation />
         <Services />
         <Expertise_Section/>
-        <Feedback_Section/>
+        {/* <Feedback_Section/> */}
         <FAQ/>
         <Subscribe_Section/>
         <FooterSection />

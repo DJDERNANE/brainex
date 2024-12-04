@@ -83,3 +83,21 @@ text-transform: uppercase;
     width: 100px !important;
     height: 100px !important;
 }
+@media screen and (max-width: 500px) {
+    .card{
+        width: 100% !important;
+        margin: 40px 0px;
+        height: 100% !important;
+    }
+    .card-subtitle{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .card-title{
+        width: 100% !important;
+    }
+    .feedback_card{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
