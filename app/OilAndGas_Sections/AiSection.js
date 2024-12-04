@@ -2,7 +2,7 @@
 import "./style.css"
 import { ButtonSecondary } from "../components/Button/Button";
 import { Button } from "@/components/ui/button"
-export default function Ai() {
+export default function AiSection() {
     return (
         <div className=" container ai p-[0px] relative">
             <div className="grid md:grid-cols-2 gap-[20px]  md:gap-[40px] absolute left-0 bottom-0 z-10  overflow-hidden p-2">

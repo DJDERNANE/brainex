@@ -8,7 +8,7 @@ import Why_us from "../OilAndGas_Sections/Why_us";
 import Combridge from "../OilAndGas_Sections/Combridge";
 import Transform from "../OilAndGas_Sections/Transform";
 import Promise from "../OilAndGas_Sections/Promise";
-import Ai from "../OilAndGas_Sections";
+import AiSection from "../OilAndGas_Sections/AiSection";
 
 export default function Oil_Gaz() {
   return (
@@ -22,7 +22,7 @@ export default function Oil_Gaz() {
         <Plans_Section/>
         <Transform />
         <Promise />
-        <Ai/>
+        <AiSection/>
         <FooterSection />
     </div>
   );
