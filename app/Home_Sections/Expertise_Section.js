@@ -56,7 +56,7 @@ export default function Expertise_Section() {
                     <p className="text-start text-white py-4 expertise-register-h1 w-[90%]">The first Algerian school devoted to the professions of the future</p>
                     <p className="text-white Expertise-register-desc pb-5">Learn the most in-demand technological skills on the market 
                     with Cambridge Brainex.</p>
-                    <ButtonSecondary text="Register now" addClassName={'md:m-0 m-auto '}/>
+                    <ButtonSecondary text="Register now" addClassName={'md:m-0 m-auto '} link={"/Training"}/>
                 </div>
                 <div className="md:flex-[1] md:flex hidden ">
                     <img src="/brainex_expertise.png" alt="brainex expertiser"  className="expertise-register-img"/>
