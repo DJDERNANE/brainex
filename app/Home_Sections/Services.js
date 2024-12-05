@@ -6,21 +6,21 @@ import Article from "../components/Article/Article"
     const posts = [
         {
             contain_img: true,
-            title: "Oil and Gas",
+            title: "AI in Oil and Gas",
             img: "./brainex_oil_gas.png",
-            desc: "12% of the total supply of 10 billionMATIC is allocated to fund stakingrewards. As a validator, you set yourown commission for acceptingdelegations to your node. There arealso annual incentives available!"
+            desc: "Optimizing Energy Exploration Harnessing AI to enhance efficiency in drilling, exploration, and predictive maintenance, reducing costs and environmental impact."
         },
         {
             contain_img: true,
             img: "./brainex_agriculture.png",
-            title: "Agriculture",
+            title: "AI in Agriculture",
              desc: "12% of the total supply of 10 billionMATIC is allocated to fund stakingrewards. As a validator, you set yourown commission for acceptingdelegations to your node. There arealso annual incentives available!"
         },
         {
             contain_img: true,
             img: "./brainex_electronics.png",
             title: "Electronics",
-             desc: "12% of the total supply of 10 billionMATIC is allocated to fund stakingrewards. As a validator, you set yourown commission for acceptingdelegations to your node. There arealso annual incentives available!"
+             desc: "Revolutionizing Smart Devices AI drives innovation in electronics, enabling smarter automation, predictive analytics, and personalized user experiences."
         }
     ]
     return (

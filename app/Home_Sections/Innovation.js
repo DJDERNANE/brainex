@@ -4,19 +4,19 @@ export default function Innovation() {
     const posts = [
         {
             title: "Our Missioion",
-            description: "Welcome to BrainEx, where we are at the forefront of AI research and innovation. Our team of experts is dedicated to pushing the boundaries of what's possible in artificial intelligence, unlocking new potentials and reshaping industries.",
+            description: "Welcome to Cambridge BraineX, where we are at the forefront of AI research and innovation. Our team of experts is dedicated to pushing the boundaries of what's possible in artificial intelligence, unlocking new potentials and reshaping industries..",
         },
         {
             title: "Our Vision",
-            description: "Our vision at BrainEx is to be a global leader in AI research and development, pioneering breakthroughs that shape the future of intelligence. We envision a world where AI technology enhances every aspect of human life, making businesses smarter, societies more connected, and the world more prosperous.",
+            description: "Our vision at Cambridge BraineX is to be a global leader in AI research and development, pioneering breakthroughs that shape the future of intelligence. We envision a world where AI technology enhances every aspect of human life, making businesses smarter, societies more connected, and the world more prosperous.",
         },
         {
             title: "Our Goal",
-            description: "Our goal at BrainEx is to deliver unparalleled value to our clients by harnessing the power of AI to solve complex challenges and drive sustainable growth. We aim to continuously push the boundaries of what's possible in artificial intelligence, driving innovation, and making a positive impact on businesses and society as a whole.",
+            description: "Our goal at Cambridge BraineX is to deliver unparalleled value to our clients by harnessing the power of AI to solve complex challenges and drive sustainable growth. We aim to continuously push the boundaries of what's possible in artificial intelligence, driving innovation, and making a positive impact on businesses and society as a whole.",
         },
         {
             title: "Ethical AI Commitment",
-            description: "At BrainEx, we are committed to the responsible development and deployment of AI technologies. We prioritize ethical considerations in all aspects of our work, ensuring that our AI solutions uphold principles of fairness, transparency, and accountability.",
+            description: "At Cambridge BraineX, we are committed to the responsible development and deployment of AI technologies. We prioritize ethical considerations in all aspects of our work, ensuring that our AI solutions uphold principles of fairness, transparency, and accountability. ",
         }
     ]
     return (

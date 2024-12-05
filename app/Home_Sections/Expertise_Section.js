@@ -4,12 +4,12 @@ export default function Expertise_Section() {
     const posts = [
         {
             title: "Oil and Gas",
-            desc: "Our data science experts specialize in extracting actionable insights from complex datasets.",
+            desc: "Unlock the potential of Artificial Intelligence to transform your energy operations and strategies.",
             img: "/service_brainex.png",
         },
         {
             title: "AI Experts",
-            desc: "Our AI specialists develop sophisticated algorithms to automate tasks and enhance operational efficiency. ",
+            desc: "Our AI specialists develop sophisticated algorithms to automate tasks and enhance operational efficiency.  ",
             img: "/ai_experts.png",
         },
         {
@@ -19,17 +19,17 @@ export default function Expertise_Section() {
         },
         {
             title: "AI in Agricultur",
-            desc: "Our team excels in designing and implementing advanced electronic systems.",
+            desc: "Empowering precision agriculture with AI to optimize crop yield, monitor conditions, and ensure sustainable food production.",
             img: "/agr-card.png",
         },
         {
             title: "AI in Supply chain",
-            desc: "Our team excels in designing and implementing advanced electronic systems.",
+            desc: "AI accelerates diagnostics, streamlines patient management, and fosters groundbreaking medical discoveries for better outcomes.",
             img: "/new-card.png",
         },
         {
             title: "AI in Healthcare",
-            desc: "Our team excels in designing and implementing advanced electronic systems.",
+            desc: "AI accelerates diagnostics, streamlines patient management, and fosters groundbreaking medical discoveries for better outcomes.",
             img: "/medical-card.png",
         },
 
