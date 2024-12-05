@@ -78,8 +78,8 @@ export default function Plans_Section() {
 
 </div>
 
-                        <button  className={`btn btn-primary ${show ? "hidden-btn" : ""}`} onClick={() => setShow(!show)}>
-                            <span>Get in touch </span>
+                        <button  className={`btn ${show ? "btn-transparent" : "btn-primary"}  ${show ? "hidden-btn" : ""}`} onClick={() => setShow(!show)}>
+                            <span>{show ? "Cancel" : "Get in touch"} </span>
                         </button>
                         <div className={show ? "flex justify-between " : "hidden"}>
                             {/* <button className={`btn btn-primary m-2 bg-transparent`} >

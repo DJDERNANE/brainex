@@ -460,7 +460,9 @@ width: 60%;
 .btn-ai{
     background-color: #09AC72 !important;
 }
-
+.btn-transparent{
+    background: transparent !important;
+}
 @media screen and (max-width: 500px) {
     .oil_gaz_front{
         font-size: 30px;
