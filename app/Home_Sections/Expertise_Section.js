@@ -24,7 +24,7 @@ export default function Expertise_Section() {
         },
         {
             title: "AI in Supply chain",
-            desc: "AI accelerates diagnostics, streamlines patient management, and fosters groundbreaking medical discoveries for better outcomes.",
+            desc: "AI enhances supply chain efficiency through real-time tracking, demand forecasting, and automated decision-making for seamless operations.",
             img: "/new-card.png",
         },
         {
