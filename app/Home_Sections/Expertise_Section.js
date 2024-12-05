@@ -20,17 +20,17 @@ export default function Expertise_Section() {
         {
             title: "AI in Agricultur",
             desc: "Empowering precision agriculture with AI to optimize crop yield, monitor conditions, and ensure sustainable food production.",
-            img: "./agr-card.png",
+            img: "agr-card.png",
         },
         {
             title: "AI in Supply chain",
             desc: "AI enhances supply chain efficiency through real-time tracking, demand forecasting, and automated decision-making for seamless operations.",
-            img: "./new-card.png",
+            img: "new-card.png",
         },
         {
             title: "AI in Healthcare",
             desc: "AI accelerates diagnostics, streamlines patient management, and fosters groundbreaking medical discoveries for better outcomes.",
-            img: "./medical-card.png",
+            img: "medical-card.png",
         },
 
     ]

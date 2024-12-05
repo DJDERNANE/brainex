@@ -7,7 +7,7 @@ export default function ExpertiseCard({ title, desc, img }) {
             <li className="w-full mx-auto group sm:max-w-sm">
                 <a href="#">
                     <div>
-                        <Image src={'/' + img + ''} width={100} height={100} alt="logo" style={{ objectFit: 'contain', width: '100%', height: '100%' }} />
+                        <Image src={'/' + img } width={100} height={100} alt="logo" style={{ objectFit: 'contain', width: '100%', height: '100%' }} />
                     </div>
                     
                     <div className="pt-[60px]">
