@@ -5,11 +5,11 @@ export default function Why_us() {
     const posts = [
         {
             title: "Innovation Leaders",
-            desc: "BrainEx leads the charge in AI innovation, consistently delivering groundbreaking solutions that redefine the possibilities of artificial intelligence.",
+            desc: "We are a team of AI specialists with extensive expertise in Machine Learning and Deep Learning.",
         },
         {
             title: "Proven Excellence",
-            desc: "With a track record of success, BrainEx has demonstrated its ability to drive tangible results for businesses across industries, showcasing its expertise and reliability in the field of AI.",
+            desc: "With a track record of success, Cambridge BraineX has demonstrated its ability to drive tangible results for businesses across industries, showcasing its expertise and reliability in the field of AI.",
         },
         {
             title: "Tailored Solutions",

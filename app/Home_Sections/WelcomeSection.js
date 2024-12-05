@@ -8,8 +8,7 @@ export default function WelcomeSection() {
           Shaping Tomorrow's Intelligence
         </h1>
         <p className="text-white md:py-4 welcome-subtitle py-[40px] w-[500px]">
-          BrainEx understands the unique needs of each business and offers 
-          tailored AI solutions to address specific challenges
+        Cambridge BraineX understands the unique needs of your business and offers tailored AI solutions to address your specific challenges.
         </p>
         <ButtonSecondary text="Register now" addClassName={'m-auto md:m-0 '}/> 
       </div>

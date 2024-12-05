@@ -26,7 +26,7 @@ export default function Innovation() {
                     <div className="h-[130px] w-[50px]">
 
                     </div>
-                    <p className="text-start text-white py-4 welcome-h1 h-[160px]">AI research and <br /> <span className="innovation">innovation</span></p>
+                    <p className="text-start text-white py-4 welcome-h1 h-[160px]">About <br /> <span className="innovation">Cambridge BraineX</span></p>
                 </div>
 
                 <div className="pt-[50px] pb-[200px]">
