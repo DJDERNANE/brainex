@@ -122,7 +122,7 @@ export function Contact_Form() {
         </div>
       </div>
       <div className="flex justify-end py-4">
-        <ButtonSecondary text={"Register now"} onClick={() => (console.log(formData))} />
+        <ButtonSecondary text={"Register now"} onClick={() => handleSubmit()} />
       </div>
     </div>
   );
