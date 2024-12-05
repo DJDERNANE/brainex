@@ -14,7 +14,7 @@ import Article from "../components/Article/Article"
             contain_img: true,
             img: "./brainex_agriculture.png",
             title: "AI in Agriculture",
-             desc: "12% of the total supply of 10 billionMATIC is allocated to fund stakingrewards. As a validator, you set yourown commission for acceptingdelegations to your node. There arealso annual incentives available!"
+             desc: "Cultivating Smarter Farming Empowering precision agriculture with AI to optimize crop yield, monitor conditions, and ensure sustainable food production."
         },
         {
             contain_img: true,
