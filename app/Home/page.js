@@ -10,7 +10,8 @@ import FooterSection from "../components/FooterSection/FooterSection";
 import Subscribe_Section from "../Home_Sections/Subscribe_Section";
 import FAQ from "../Home_Sections/FAQ";
 import Feedback_Section from "../Home_Sections/Feedback_Section";
-
+import Plans_Section from "../OilAndGas_Sections/Plans_Section";
+import '../OilAndGas_Sections/style.css'
 
 export default function Home() {
   return (
@@ -24,7 +25,8 @@ export default function Home() {
         <Expertise_Section/>
         {/* <Feedback_Section/> */}
         <FAQ/>
-        <Subscribe_Section/>
+        {/* <Subscribe_Section/> */}
+        <Plans_Section/>
         <FooterSection />
     </div>
   );
