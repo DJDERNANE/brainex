@@ -13,13 +13,13 @@ export default function Why_us() {
         },
         {
             title: "Tailored Solutions",
-            desc: "BrainEx understands the unique needs of each business and offers tailored AI solutions to address specific challenges, ensuring alignment with strategic objectives",
+            desc: "Cambridge BraineX understands the unique needs of each business and offers tailored AI solutions to address specific challenges, ensuring alignment with strategic objectives",
         }
     ]
     return (
         <div className="relative">
             <div className="why-us-section py-4  container ">
-                <p className="text-start text-white py-4 welcome-h1">Why rely us ?</p>
+                <p className="text-start text-white py-4 welcome-h1">Why us ?</p>
                 <div className="pt-[50px] pb-[200px] flex flex-col md:flex-row justify-between relative">
                     {posts.map((item, index) => (
                         <Article
