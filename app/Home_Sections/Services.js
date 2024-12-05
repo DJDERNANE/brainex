@@ -14,7 +14,7 @@ import Article from "../components/Article/Article"
             contain_img: true,
             img: "./brainex_agriculture.png",
             title: "AI in Agriculture",
-             desc: "Cultivating Smarter Farming Empowering precision agriculture with AI to optimize crop yield, monitor conditions, and ensure sustainable food production."
+            desc: "Cultivating Smarter Farming Empowering precision agriculture with AI to optimize crop yield, monitor conditions, and ensure sustainable food production."
         },
         {
             contain_img: true,
