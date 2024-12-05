@@ -55,7 +55,7 @@ export default function Navbar() {
             {
                 title: "Electronics",
                 subtitle: "Tradition seamlessly converges with innovation",
-                image: "ai_experts.png",
+                image: "electronics_specialists.png",
                 icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.0001 7.16C17.9401 7.15 17.8701 7.15 17.8101 7.16C16.4301 7.11 15.3301 5.98 15.3301 4.58C15.3301 3.15 16.4801 2 17.9101 2C19.3401 2 20.4901 3.16 20.4901 4.58C20.4801 5.98 19.3801 7.11 18.0001 7.16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M16.9704 14.44C18.3404 14.67 19.8504 14.43 20.9104 13.72C22.3204 12.78 22.3204 11.24 20.9104 10.3C19.8404 9.59001 18.3104 9.35 16.9404 9.59" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -69,7 +69,7 @@ export default function Navbar() {
                 title: "AI in Agriculture ",
                 link: "/oil_gaz",
                 subtitle: "Tradition seamlessly converges with innovation",
-                image: "test.png",
+                image: "agr.png",
                 icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.0001 7.16C17.9401 7.15 17.8701 7.15 17.8101 7.16C16.4301 7.11 15.3301 5.98 15.3301 4.58C15.3301 3.15 16.4801 2 17.9101 2C19.3401 2 20.4901 3.16 20.4901 4.58C20.4801 5.98 19.3801 7.11 18.0001 7.16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M16.9704 14.44C18.3404 14.67 19.8504 14.43 20.9104 13.72C22.3204 12.78 22.3204 11.24 20.9104 10.3C19.8404 9.59001 18.3104 9.35 16.9404 9.59" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -83,7 +83,7 @@ export default function Navbar() {
                 title: "AI in Supply chain ",
                 link: "/oil_gaz",
                 subtitle: "Optimazing supply chain operations with predective analytics, intelegent automation, and real time tracking to boost efficiency and resilience ",
-                image: "test.png",
+                image: "new-card.png",
                 icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.0001 7.16C17.9401 7.15 17.8701 7.15 17.8101 7.16C16.4301 7.11 15.3301 5.98 15.3301 4.58C15.3301 3.15 16.4801 2 17.9101 2C19.3401 2 20.4901 3.16 20.4901 4.58C20.4801 5.98 19.3801 7.11 18.0001 7.16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M16.9704 14.44C18.3404 14.67 19.8504 14.43 20.9104 13.72C22.3204 12.78 22.3204 11.24 20.9104 10.3C19.8404 9.59001 18.3104 9.35 16.9404 9.59" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -97,7 +97,7 @@ export default function Navbar() {
                 title: "AI in Healthcare ",
                 link: "/oil_gaz",
                 subtitle: "Revolutionizing patient care with AI-driven diagnostics, personalized treatments, and advanced health data analytics for better outcomes.",
-                image: "test.png",
+                image: "/medical.png",
                 icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.0001 7.16C17.9401 7.15 17.8701 7.15 17.8101 7.16C16.4301 7.11 15.3301 5.98 15.3301 4.58C15.3301 3.15 16.4801 2 17.9101 2C19.3401 2 20.4901 3.16 20.4901 4.58C20.4801 5.98 19.3801 7.11 18.0001 7.16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M16.9704 14.44C18.3404 14.67 19.8504 14.43 20.9104 13.72C22.3204 12.78 22.3204 11.24 20.9104 10.3C19.8404 9.59001 18.3104 9.35 16.9404 9.59" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />

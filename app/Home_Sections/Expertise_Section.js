@@ -5,32 +5,32 @@ export default function Expertise_Section() {
         {
             title: "Oil and Gas",
             desc: "Unlock the potential of Artificial Intelligence to transform your energy operations and strategies.",
-            img: "/service_brainex.png",
+            img: "service_brainex.png",
         },
         {
             title: "AI Experts",
             desc: "Our AI specialists develop sophisticated algorithms to automate tasks and enhance operational efficiency.  ",
-            img: "/ai_experts.png",
+            img: "ai_experts.png",
         },
         {
             title: "Electronics Specialists",
             desc: "Our team excels in designing and implementing advanced electronic systems.",
-            img: "/electronics_specialists.png",
+            img: "electronics_specialists.png",
         },
         {
             title: "AI in Agricultur",
             desc: "Empowering precision agriculture with AI to optimize crop yield, monitor conditions, and ensure sustainable food production.",
-            img: "/agr-card.png",
+            img: "agr-card.png",
         },
         {
             title: "AI in Supply chain",
             desc: "AI enhances supply chain efficiency through real-time tracking, demand forecasting, and automated decision-making for seamless operations.",
-            img: "/new-card.png",
+            img: "new-card.png",
         },
         {
             title: "AI in Healthcare",
             desc: "AI accelerates diagnostics, streamlines patient management, and fosters groundbreaking medical discoveries for better outcomes.",
-            img: "/medical-card.png",
+            img: "medical-card.png",
         },
 
     ]

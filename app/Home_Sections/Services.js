@@ -29,7 +29,7 @@ import Article from "../components/Article/Article"
                 <div className="flex-[1]">
                     <p className="text-start text-white py-4 welcome-h1 h-[160px]">Our <br /> <span className="innovation">Services</span></p>
                     <p className="services-subtitle pt-[50px] w-[100%]">
-                        At BrainEx, we prioritize the privacy and security of our clients' data. We implement robust security measures and adhere to strict data protection protocols to safeguard sensitive information throughout the AI development and deployment process.
+                        At Cambridge BraineX, we prioritize the privacy and security of our clients' data. We implement robust security measures and adhere to strict data protection protocols to safeguard sensitive information throughout the AI development and deployment process.
                     </p>
                 </div>
                 <div className="flex-[2]">
