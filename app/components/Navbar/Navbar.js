@@ -10,7 +10,7 @@ export default function Navbar() {
 
 
     const imgs = [
-         "ai_experts.png", "test.png", "ai_experts.png", "test.png",
+         "ai_experts.png", "service_brainex.png", "electronics_specialists.png", "agr.png","new.png", "medical.png"
     ]
     // Replace javascript:void(0) paths with your paths
     const navigation = [
