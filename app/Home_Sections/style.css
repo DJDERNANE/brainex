@@ -211,7 +211,7 @@ article.contain-img:hover, .services .card:hover {
         margin: auto;
     }
     .expertise-register {
-        height: 100%;
+        height: 100% !important;
         padding: 80px 20px;
         margin: 200px auto;
         width: 90%;
@@ -221,12 +221,14 @@ article.contain-img:hover, .services .card:hover {
 
     .expertise-register-h1 {
         text-align: center;
+        font-size: 25px !important;
     }
 
     .Expertise-register-desc {
         text-align: center;
-        width: 100%;
+        width: 100% !important;
         padding: 50px 0px;
+        margin: auto;
     }
 
     .faq-img {
@@ -240,5 +242,8 @@ article.contain-img:hover, .services .card:hover {
         padding: 100px 50px;
         text-align: center;
 
+    }
+    .innovation{
+        font-size: 50px !important;
     }
 }

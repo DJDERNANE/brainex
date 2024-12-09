@@ -30,7 +30,7 @@ export default function FAQ() {
 
         <div className="why-us-section py-4  container ">
             <p className="text-start text-white py-4 welcome-h1">Your FAQ  </p>
-            <p>We’re building a decentralized future with an amazing group
+            <p className="text-[#67666E] py-4 text-center md:text-left w-[70%] md:w-[100%] mx-auto ">We’re building a decentralized future with an amazing group
                 of people. We can’t wait for you to join us!</p>
             <div className="flex rounded-lg  h-[600px] ">
                 <div className="faq flex-1 overflow-scroll no-scrollbar">

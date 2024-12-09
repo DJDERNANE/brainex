@@ -76,10 +76,11 @@ export default function Plans_Section() {
                             onChange={(e) => setInquiry(e.target.value)}
                         />
 
-</div>
+                    </div>
+                    <div className={`grid md:grid-cols-${show ? "2" : "1"} gap-[20px]`}>
 
-                        <button  className={`btn ${show ? "btn-transparent" : "btn-primary"}  ${show ? "hidden-btn" : ""}`} onClick={() => setShow(!show)}>
-                            <span>{show ? "Cancel" : "Get in touch"} </span>
+                        <button className={`btn  ${show ? "btn-transparent " : "btn-primary"}  ${show ? "hidden-btn" : ""}`} onClick={() => setShow(!show)}>
+                            <span className={`${show ? "text-black" : "text-white"}`}>{show ? "Cancel" : "Get in touch"} </span>
                         </button>
                         <div className={show ? "flex justify-between " : "hidden"}>
                             {/* <button className={`btn btn-primary m-2 bg-transparent`} >
@@ -89,14 +90,16 @@ export default function Plans_Section() {
                                 <span>Get in touch </span>
                             </button>
                         </div>
-
-                        <p className={`note ${show ? "hidden" : ""}`}>
-                            Get updates, insights, and reports on
-                            the latest industry Technologies.
-                        </p>
-
                     </div>
+
+
+                    <p className={`note ${show ? "hidden" : ""}`}>
+                        Get updates, insights, and reports on
+                        the latest industry Technologies.
+                    </p>
+
                 </div>
             </div>
-            )
+        </div>
+    )
 }

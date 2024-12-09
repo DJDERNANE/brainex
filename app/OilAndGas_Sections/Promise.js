@@ -10,11 +10,14 @@ export default function Promise() {
             <div className="absolute top-0 left-0 z-10 md:flex hidden">
                 <img src="/left.png" alt="promise" className="mx-auto " />
             </div>
+            <div>
+                <p className="ourPromise pt-[50px]">Our Promise</p>
+                <p className="text-center text-white promise-dec py-[50px]">
+                    “Seamless delivery, measurable outcomes, and helping you lead in an increasingly competitive global energy market.”
+                </p>
+            </div>
             
-            <p className="ourPromise pt-[50px]">Our Promise</p>
-            <p className="text-center text-white promise-dec py-[50px]">
-                “Seamless delivery, measurable outcomes, and helping you lead in an increasingly competitive global energy market.”
-            </p>
+          
         </div>
     );
 }

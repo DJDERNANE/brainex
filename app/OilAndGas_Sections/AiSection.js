@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 export default function AiSection() {
     return (
         <div className=" container ai p-[0px] relative">
-            <div className="grid md:grid-cols-2 gap-[20px]  md:gap-[40px] absolute left-0 bottom-0 z-10  overflow-hidden p-2">
-                <div className="bg-white p-8 item-ai">
+            <div className="grid md:grid-cols-2 gap-[20px]  md:gap-[40px] absolute left-0 bottom-0 z-10  overflow-hidden md:p-[40px]">
+                <div className="bg-white p-8 item-ai rounded-[8px]">
                     <div className="flex items-center justify-between">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVG">
@@ -30,7 +30,7 @@ export default function AiSection() {
                         </p>
                     </div>
                 </div>
-                <div className="bg-white p-8 item-ai">
+                <div className="bg-white p-8 item-ai rounded-[8px]">
                     <div className="flex items-center justify-between">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVG">

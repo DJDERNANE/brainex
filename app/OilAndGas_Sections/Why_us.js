@@ -21,7 +21,7 @@ export default function Why_us() {
             <div className="why-us-section oil py-4  container ">
                 <p className="green-text p-0 m-0">Why us</p>
                 <p className="text-start text-white pb-4 pt-0 welcome-h1">What Makes Us Unique?</p>
-                <div className="pt-[50px] pb-[200px] flex flex-col md:flex-row justify-between relative">
+                <div className="pt-[50px] pb-[200px] grid md:grid-cols-3 gap-[70px]">
                     {posts.map((item, index) => (
                         <OilCard
                             key={index}  // Ensure key is passed here

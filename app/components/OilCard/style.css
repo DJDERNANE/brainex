@@ -2,7 +2,7 @@
     display: flex;
     width: 391px;
     height: 344px;;
-    padding: 213.5px 43.5px 53.42px 43.5px;
+    padding: 21px;
     flex-direction: column;
     flex-shrink: 0;
     border-radius: var(--12, 12px);
@@ -11,6 +11,7 @@
     transition: all 0.3s ease-out;   
     border-radius: 12px;
     border: 1px solid #3B3B3B;
+    justify-content: flex-start;
     background: var(--style-brainex, linear-gradient(180deg, rgba(10, 10, 13, 0.00) 48%, rgba(10, 10, 13, 0.01) 56%, rgba(10, 10, 13, 0.88) 100%), linear-gradient(180deg, #16141A 0%, #0F0D13 80%));
 }
 
@@ -29,6 +30,7 @@ font-size: 23.25px;
 font-style: normal;
 font-weight: var(--font-weight-500, 500);
 line-height: var(--line-height-33_6, 33.6px); /* 144.516% */
+width: 100%;
 }
 
 .oil-subtitle {

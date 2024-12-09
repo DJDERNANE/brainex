@@ -53,7 +53,7 @@ export default function Expertise_Section() {
 
             <div className="expertise-register py-4  container flex flex-col md:flex-row justify-between items-center  ">
                 <div className="flex-[1] ">
-                    <p className="text-start text-white py-4 expertise-register-h1 w-[90%]">The first Algerian school devoted to the professions of the future</p>
+                    <p className="text-start text-white py-4 expertise-register-h1 w-[100%] md:w-[90%]">The first Algerian school devoted to the professions of the future</p>
                     <p className="text-white Expertise-register-desc pb-5">Learn the most in-demand technological skills on the market 
                     with Cambridge Brainex.</p>
                     <ButtonSecondary text="Register now" addClassName={'md:m-0 m-auto '} link={"/Training"}/>

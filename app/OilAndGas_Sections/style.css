@@ -265,7 +265,11 @@ line-height: var(--line-height-33_6, 33.6px); /* 144.516% */
 .email:focus{
     outline: #00C881 2px solid;
 }
-
+.btn.btn-transparent{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 
 
 
@@ -463,6 +467,94 @@ width: 60%;
 .btn-transparent{
     background: transparent !important;
 }
+.solutions{
+    height: 100vh;
+    border-radius:  12px;
+    border: 1px solid #CDD7DF;
+    overflow: hidden;
+    padding: 0px !important;
+}
+.solutions .swiper-slide{
+    height: 700px !important;
+}
+.solutions .swiper-slide img{
+    height: 70% !important;
+    width: 100% !important;
+}
+.gallery-text{
+    color: #D4FFED;
+    font-size: 27.234px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39.2px; /* 143.936% */
+    width: 100%;
+    padding: 30px;
+    border-top: 1px solid #CDD7DF;
+}
+.gallery-title{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #FFF;
+    font-size: 46.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px; /* 123.871% */
+    letter-spacing: -1.2px;
+    width: 30%;
+}
+.gallery-text p{
+    width: 50%;
+}
+.swiper-button-prev{
+    top: 90% !important;
+    left: 5% !important;
+}
+.swiper-button-next{
+    top: 90% !important;
+    right: 87% !important;
+}
+.swiper-button-next::after {
+    content: "" !important;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+    background-image: url(right.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    border: 1px solid #CDD7DF;
+    display: flex;
+    width: 54px;
+    height: 54px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.swiper-button-next:hover::after, .swiper-button-prev:hover::after{
+    background-color: #00C881 !important;
+}
+
+.swiper-button-prev::after {
+    content: "" !important;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+    background-image: url(left.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    border: 1px solid #CDD7DF;
+    display: flex;
+    width: 54px;
+    height: 54px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 @media screen and (max-width: 500px) {
     .oil_gaz_front{
         font-size: 30px;
@@ -511,5 +603,37 @@ margin: 7px 0px;
     .item-ai{
         margin: 10px !important;
     }
-    
+    .card-cours-price.oil{
+        width: 100% !important;
+    }
+    .gallery-text p{
+        width: 100%;
+        height: max-content !important;
+    }
+    .solutions{
+        height: 95vh !important;
+    }
+    .solutions .swiper-slide img{
+        height: 60% !important;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        top: 90% !important;
+    }
+    .swiper-button-next{
+        right: 65% !important;
+    }
+    .swiper-button-prev{
+        left: 10% !important;
+    }
+    .mySwiper {
+        height: 100% !important;
+    }
+    .gallery-title{
+        width: 100% !important;
+        font-size: 35px;
+        top: 30% !important;
+    }
+    .ai{
+        height: 100vh !important;
+    }
 }
