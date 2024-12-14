@@ -7,6 +7,11 @@ const nextConfig = {
             source: '/',
             destination: '/Home',
             permanent: true,
+          },
+          {
+            source: '/admin',
+            destination: 'http://localhost:8001/admin',
+            permanent: true,
           }
         ]
       },

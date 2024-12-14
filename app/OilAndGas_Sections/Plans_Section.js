@@ -3,10 +3,11 @@ import "./style.css";
 import PlanCard from "../components/Plan_Card/PlanCard";
 import { useState } from "react";
 import axios from 'axios';
+import {MainApi} from "../utils/MainApi";
 export default function Plans_Section() {
     const [show, setShow] = useState(false);
     const [email, setEmail] = useState('');
-    const [full_name, setFullName] = useState('');
+    const [name, setName] = useState('');
     const [phone, setPhone] = useState('');
     const [message, setInquiry] = useState('');
 
@@ -16,20 +17,26 @@ export default function Plans_Section() {
         // Prepare data to send to the backend
         const data = {
             email,
-            full_name,
+            name,
             phone,
             message,
         };
 
         try {
             // Send data to backend via POST request
-            const response = await axios.post('http://localhost:8000/api/contacts', data);
-            console.log('Form submitted successfully:', response);
+            const response = await axios.post(`${MainApi}/contacts`, data);
+            if (response.status === 200) {
+                alert("Message sended  successfully!");
+                // Clear form fields
+                setEmail('');
+                setName('');
+                setPhone('');
+                setInquiry('');
+            }
         } catch (error) {
             console.error('Error submitting form:', error);
         }
     };
-    console.log(full_name);
     return (
         <div className=" pb-[100px] mx-auto container">
             <div className="grid md:grid-cols-2 text-white py-[70px] items-center">
@@ -59,8 +66,8 @@ export default function Plans_Section() {
                             type="text"
                             placeholder="Enter Full Name"
                             className="email"
-                            value={full_name}
-                            onChange={(e) => setFullName(e.target.value)}
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
                         />
                         <input
                             type="text"
