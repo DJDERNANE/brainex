@@ -35,7 +35,7 @@ export function Contact_Form() {
 
 
   const onValueChange = (value) => {
-      console.log(value);
+    console.log(value);
   }
   console.log(formData);
 
@@ -63,128 +63,133 @@ export function Contact_Form() {
       alert("Failed to submit form");
     }
   };
-  const  options = ["Algeria", "France", "Germany", "Italy", "Spain", "other"]
-  const ages=["Under 18", "18-24", "25-34", "35-44", "45+"]
-  const status=["Student", "Employed", "Unemployed", "self-employed", "Free-lancer", "Other"]
-  const levels=["Beginner", "Intermediate", "Advanced", "I don't know"]
+  const options = ["Algeria", "France", "Germany", "Italy", "Spain", "other"]
+  const ages = ["Under 18", "18-24", "25-34", "35-44", "45+"]
+  const status = ["Student", "Employed", "Unemployed", "self-employed", "Free-lancer", "Other"]
+  const levels = ["Beginner", "Intermediate", "Advanced", "I don't know"]
+  const availabilities = ["weekends (morning)", "weekends (afternoon)", "weekdays (morning)", "weekdays (afternoon)"]
+  const courses = ["Python for Data Science", "AI and Deep Learning", "Machine Learning", "English", "FullStack"]
   return (
     <div>
       <div className="contact-container-form grid grid-cols-2 gap-[16px]">
         <InputContact name={"Full Name"} type={"text"} placeholder={"Enter your name"} onChange={(e) => handleChange("name", e.target.value)} />
         <InputContact name={"Adress e-mail"} type={"text"} placeholder={"Enter your e-mail address"} onChange={(e) => handleChange("email", e.target.value)} />
-        <InputContact name={"Family Name"} type={"text"} placeholder={"Enter your family name"} onChange={(e) => handleChange("family_name", e.target.value)} />
-        <InputContact name={"Contact Phone "} type={"text"} placeholder={"+213 000 000 000"} onChange={(e) => handleChange("phone", e.target.value)} />
-        <Select onValueChange={(value) => handleChange("contry", value)}>
-          <SelectTrigger className="w-full">
-            <SelectValue placeholder={'select your country'} />
-          </SelectTrigger>
-          <SelectContent>
-            {options.map((option, index) => (
-              <SelectItem key={index} value={option}>
-                {option}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        <InputContact name={"City of Residence"} type={"text"} placeholder={"Enter your city"} onChange={(e) => handleChange("city", e.target.value)} />
-        <Select onValueChange={(value) => handleChange("age_group", value)}>
-          <SelectTrigger className="w-full">
-            <SelectValue placeholder={'select your age group'} />
-          </SelectTrigger>
-          <SelectContent>
-            {ages.map((option, index) => (
-              <SelectItem key={index} value={option}>
-                {option}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        <Select onValueChange={(value) => handleChange("status", value)}>
-          <SelectTrigger className="w-full">
-            <SelectValue placeholder={'select your status'} />
-          </SelectTrigger>
-          <SelectContent>
-            {status.map((option, index) => (
-              <SelectItem key={index} value={option}>
-                {option}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        <Select onValueChange={(value) => handleChange("level", value)}>
-          <SelectTrigger className="w-full">
-            <SelectValue placeholder={'select your level'} />
-          </SelectTrigger>
-          <SelectContent>
-            {levels.map((option, index) => (
-              <SelectItem key={index} value={option}>
-                {option}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        {/* <SelectContact name={"course"} opitions={["Coding with Python", "AI & DL", "AI & ML", "Web Development", "Graphics Design", "English"]} placeholder={"Select Your Course"} onChange={(e) => handleChange("course", e.target.value)} /> */}
-        {/* <SelectContact name={"level"}  placeholder={"Select Your Course"} onChange={(e) => handleChange("level", e.target.value)} /> */}
-        <div className="col-span-2 p-2 input-container">
-          <label className="py-4">Availability for Live Sessions</label>
-          <div className="flex items-center space-x-2 py-1">
-            <Checkbox onCheckedChange={() => handleAvailabilityChange("Weekdays (morning)")} />
-            <label>Weekdays (morning)</label>
-          </div>
-          <div className="flex items-center space-x-2 py-1">
-            <Checkbox id="terms" onCheckedChange={() => handleAvailabilityChange("Weekdays (afternoon)")} />
-            <label
-              htmlFor="terms"
-              className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 "
-              style={{ color: "black" }}
-            >
-              Weekdays (afternoon)
-            </label>
-          </div>
-          <div className="flex items-center space-x-2 py-1">
-            <Checkbox id="terms" onCheckedChange={() => handleAvailabilityChange("Weekends (morning)")} />
-            <label
-              htmlFor="terms"
-              className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 "
-              style={{ color: "black" }}
-            >
-              Weekends (morning)
-            </label>
-          </div>
-          <div className="flex items-center space-x-2 py-1">
-            <Checkbox id="terms" onCheckedChange={() => handleAvailabilityChange("Weekends (afternoon)")} />
-            <label
-              htmlFor="terms"
-              className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 "
-              style={{ color: "black" }}
-            >
-              Weekends (afternoon)
-            </label>
-          </div>
-          <div className="flex items-center space-x-2 py-1">
-            <Checkbox
-              id="terms" onCheckedChange={() => handleAvailabilityChange("Online")} />
-            <label
-              htmlFor="terms"
-              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 "
-              style={{ color: "black" }}
-            >
-              Online
-            </label>
-          </div>
+        <InputContact name={"Contact number (WhatsApp Number ) "} type={"text"} placeholder={"+213 000 000 000"} onChange={(e) => handleChange("phone", e.target.value)} />
+       
+        <div className="input-container ">
+          <label className="py-4">Age group  </label>
+          <Select onValueChange={(value) => handleChange("age_group", value)}>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder={'select your age group'} />
+            </SelectTrigger>
+            <SelectContent>
+              {ages.map((option, index) => (
+                <SelectItem key={index} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div> 
+        <div className="input-container ">
+          <label className="py-4">Contry  </label>
+          <Select onValueChange={(value) => handleChange("contry", value)}>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder={'select your country'} />
+            </SelectTrigger>
+            <SelectContent>
+              {options.map((option, index) => (
+                <SelectItem key={index} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
+
+       
+
+        <InputContact name={"City of Residence"} type={"text"} placeholder={"Enter your city"} onChange={(e) => handleChange("city", e.target.value)} />
+
+        <div className="input-container ">
+          <label className="py-4">Status  </label>
+          <Select onValueChange={(value) => handleChange("status", value)}>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder={'select your status'} />
+            </SelectTrigger>
+            <SelectContent>
+              {status.map((option, index) => (
+                <SelectItem key={index} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="input-container ">
+          <label className="py-4">Current Level of Experience  </label>
+          <Select onValueChange={(value) => handleChange("level", value)}>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder={'select your level'} />
+            </SelectTrigger>
+            <SelectContent>
+              {levels.map((option, index) => (
+                <SelectItem key={index} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+
+        <div className="input-container col-span-2 ">
+          <label className="py-4">Course  </label>
+          <Select onValueChange={(value) => handleChange("level", value)}>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder={courses[0]} />
+            </SelectTrigger>
+            <SelectContent>
+              {courses.map((option, index) => (
+                <SelectItem key={index} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="input-container col-span-2 ">
+          <label className="py-4">Availability for Live Sessions  </label>
+          <Select onValueChange={(value) => handleChange("level", value)}>
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder={'select your level'} />
+            </SelectTrigger>
+            <SelectContent>
+              {availabilities.map((option, index) => (
+                <SelectItem key={index} value={option}>
+                  {option}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+      
         <div className="col-span-2 p-2 input-container">
-          <Label>Your Message</Label>
+        <label className="py-4">Additional Comments   </label>
           <Textarea placeholder="Type your message here." onChange={(e) => handleChange("message", e.target.value)} />
         </div>
-        <div className="input-container col-span-2 py-2">
-          <Switch onChange={(e) => handleChange("terms", e.target.checked)} />
-          <Label>I agree to the Terms & Conditions</Label>
+        <div className="input-container switch-container col-span-2 py-2 flex items-center">
+          <Switch  />
+          <label className="py-4 ml-2">"I accept the general terms and conditions as well as the privacy policy of the site. I agree that my personal data will be collected and processed in accordance with this policy."  </label>
         </div>
-      </div>
-      <div className="flex justify-end py-4">
+        <div className="flex justify-end py-4 col-span-2 ">
         <ButtonSecondary text={"Register now"} onClick={() => handleSubmit()} />
       </div>
+      </div>
+      
     </div>
   );
 }

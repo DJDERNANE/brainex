@@ -43,11 +43,12 @@ export default function Cours_Section() {
 
     const items = [
         {
-            title: "FullStack JavaScript",
-            desc: "Become a web developer specialized in JavaScript in 4 months.",
-            img: "/fullstack.png",
-            link: "/js_cours"
+            title: "Coding with python",
+            desc: "BrainEx leads the charge in AI innovation, consistently delivering groundbreaking solutions ",
+            img: "/python.png",
+            link: "/python_cours"
         },
+       
         {
             title: "AI & Deep Learning",
             desc: "Learn to build models for image recognition, natural language processing, and more..",
@@ -60,14 +61,9 @@ export default function Cours_Section() {
             img: "/ai.png",
             link: "/ml_cours"
         },
+        
         {
-            title: "Coding with python",
-            desc: "BrainEx leads the charge in AI innovation, consistently delivering groundbreaking solutions ",
-            img: "/python.png",
-            link: "/python_cours"
-        },
-        {
-            title: "Branding Design",
+            title: "English Language",
             desc: "With a track record of success, BrainEx has demonstrated its ability to drive tangible ",
             img: "/branding.png"
         },
@@ -75,7 +71,13 @@ export default function Cours_Section() {
             title: "Graphic design ",
             desc: "BrainEx understands the unique needs of each business and offers tailored AI solutions .",
             img: "/graphic.png"
-        }
+        },
+        {
+            title: "FullStack JavaScript",
+            desc: "Become a web developer specialized in JavaScript in 4 months.",
+            img: "/fullstack.png",
+            link: "/js_cours"
+        },
     ]
     return (
         <div className="courses-section container  py-[00px] w-full gap-[50px] py-[150px]">

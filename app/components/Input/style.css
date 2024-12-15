@@ -1,17 +1,27 @@
+
 .input-container{
     display: flex;
     min-width: 400px;
-    padding: 16px  20px;
+    padding: var(--16, 16px) var(--20, 20px);
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex: 1 0 0;
-    border-radius: 16px ;
-    background:  rgba(255, 255, 255, 0.80);
+    border-radius: var(--16, 16px);
+    background: rgba(29, 29, 30, 0.80);
+    transition: all 0.3s ease-in;
+    border: none;
+}
+.input-container:hover{
+    border-radius: var(--16, 16px);
+    border: 1px solid #00C881;
+    background: rgba(0, 0, 0, 0.80);
+    transition: all 0.3s ease-out;
 }
 .input-container label{
-    color: rgba(28, 28, 28, 0.40);
+    color: rgba(255, 255, 255, 0.40);
+    font-feature-settings: 'ss01' on, 'cv01' on;
     font-size: 12px;
+    font-style: normal;
     font-weight: 400;
     line-height: 18px; /* 150% */
 
@@ -20,4 +30,10 @@
     width: 100%;
     padding: 5px;
     border-radius: 8px;
+    background-color: transparent;
+    color: white;
+}
+.input-container input:focus{
+    outline: none;
+    caret-color: #00C881; 
 }
