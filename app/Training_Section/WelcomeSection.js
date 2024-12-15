@@ -11,7 +11,7 @@ export default function WelcomeSection() {
           Cambridge Brainex Academy
         </p>
         <h1 className="welcome-h1 text-white w-[60%]">
-        The first Algerian school devoted to the professions of the future
+        The Leading Algerian School Devoted to the Professions of the Future
         </h1>
         <ButtonSecondary text="Register now"/> 
       </div>

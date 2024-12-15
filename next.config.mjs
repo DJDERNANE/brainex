@@ -10,7 +10,7 @@ const nextConfig = {
           },
           {
             source: '/admin',
-            destination: 'http://localhost:8001/admin',
+            destination: 'http://109.176.198.177:8001/admin',
             permanent: true,
           }
         ]

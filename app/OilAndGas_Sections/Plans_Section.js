@@ -45,7 +45,7 @@ export default function Plans_Section() {
                 </p>
                 <p>
                     We are a team of AI specialists with extensive expertise in Machine
-                    Learning and Deep Learning, backed by:
+                    Learning and Deep Learning,
                 </p>
             </div>
 

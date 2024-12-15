@@ -3,7 +3,7 @@ import Card from "../components/Card/Card"
 export default function Innovation() {
     const posts = [
         {
-            title: "Our Missioion",
+            title: "Our Mission",
             description: "Welcome to Cambridge BraineX, where we are at the forefront of AI research and innovation. Our team of experts is dedicated to pushing the boundaries of what's possible in artificial intelligence, unlocking new potentials and reshaping industries..",
         },
         {
