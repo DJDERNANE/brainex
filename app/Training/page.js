@@ -16,7 +16,7 @@ export default function Training_Cours() {
         <Cours_Section/>
         <Acceleration_Section/>
         <Why_Brainex/>
-        <Plans_Section/>
+        {/* <Plans_Section/> */}
         <Contact_Section/>
         <FooterSection />
     </div>
