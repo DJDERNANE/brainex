@@ -6,16 +6,16 @@ import Why_us from "@/app/_sections/Home_Sections/Why_us";
 import Innovation from "@/app/_sections/Home_Sections/Innovation";
 import Services from "@/app/_sections/Home_Sections/Services";
 import Expertise_Section from "@/app/_sections/Home_Sections/Expertise_Section";
-import FooterSection from "@/app/_components/FooterSection/FooterSection";
+import FooterSection from "../../_components/FooterSection/FooterSection";
 import Subscribe_Section from "@/app/_sections/Home_Sections/Subscribe_Section";
 import FAQ from "@/app/_sections/Home_Sections/FAQ";
 import Feedback_Section from "@/app/_sections/Home_Sections/Feedback_Section";
-import Plans_Section from "./_sections/OilAndGas_Sections/Plans_Section";
-import "./_sections/OilAndGas_Sections/style.css";
+import Plans_Section from "@/app/_sections/OilAndGas_Sections/Plans_Section";
+import '@/app/_sections/OilAndGas_Sections/style.css'
 
 export default function Home() {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="">
         <Navbar />
         <WelcomeSection />
         {/* <Trust_us_Section /> */}

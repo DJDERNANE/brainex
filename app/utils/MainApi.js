@@ -1,1 +1,1 @@
-export const  MainApi = "http://109.176.198.177:8001/api";
+export const  MainApi = "http://127.0.0.1:8000/api";
