@@ -168,7 +168,7 @@ export function Contact_Form() {
           <label className="py-4 ml-2">"I accept the general terms and conditions as well as the privacy policy of the site. I agree that my personal data will be collected and processed in accordance with this policy."  </label>
         </div>
         <div className="flex justify-end py-4 col-span-2 ">
-        <ButtonSecondary text={"Register now"} onClick={() => handleSubmit()} />
+        <ButtonSecondary text={"Register now"} onClick={handleSubmit} />
       </div>
       </div>
       
