@@ -21,6 +21,7 @@ export function Contact_Form() {
   const [checked, setChecked] = useState(false);
   const [statusUser, setStatus] = useState("");
   const [level, setLevel] = useState("");
+  const [city, setCity] = useState("");
   const [cours_id, setCours_id] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -109,7 +110,7 @@ export function Contact_Form() {
         </div>
         <div className="input-container  ">
           <label className="py-4">Course  </label>
-          <Select onValueChange={(value) => setCours(value)} >
+          <Select onValueChange={(value) => setCours_id(value)} >
             <SelectTrigger className="w-full">
               <SelectValue value={courses[0]?.id} placeholder={courses[0]?.title} />
             </SelectTrigger>
