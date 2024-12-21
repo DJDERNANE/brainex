@@ -64,7 +64,6 @@ export function Contact_Form() {
   const levels = ["Beginner", "Intermediate", "Advanced", "I don't know"]
   const availabilities = ["weekends (morning)", "weekends (afternoon)", "weekdays (morning)", "weekdays (afternoon)"]
 
-console.log(formData);
 
   return (
     <div>
