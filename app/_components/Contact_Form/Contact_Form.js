@@ -12,64 +12,39 @@ import { MainApi } from "../../utils/MainApi";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 
 export function Contact_Form() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    // family_name: "",
-    phone: "",
-    // contry: "",
-  
-    // course: "",
-    // level: "",
-    // message: "",
-    // terms: false,
-    // availability: [],
-    cours_id : null
-
-  });
-
   const [courses, setCourses] = useState([]);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [age, setAge] = useState("");
+  const [checked, setChecked] = useState(false);
+  const [statusUser, setStatus] = useState("");
+  const [level, setLevel] = useState("");
+  const [cours_id, setCours_id] = useState("");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  const handleChange = (name, value) => {
-    setFormData({ ...formData, [name]: value });
-  };
+    // Prepare data to send to the backend
+    const data = {
+        email,
+        name,
+        phone,
+        message,
+        cours_id
+    };
 
+    try {
+        // Send data to backend via POST request
+        const response = await axios.post(`${MainApi}/inscriptions`, data);
+        if (response.status === 200) {
+            alert("Message sended  successfully!");
 
-  const onValueChange = (value) => {
-    console.log(value);
-  }
-  // console.log(formData);
-
-  const handleAvailabilityChange = (availabilityOption) => {
-    setFormData((prevState) => ({
-      ...prevState,
-      availability: prevState.availability.includes(availabilityOption)
-        ? prevState.availability.filter((item) => item !== availabilityOption)
-        : [...prevState.availability, availabilityOption],
-    }));
-  };
-
-  const handleSubmit = async () => {
-
-      // const payload = {
-      //   ...formData,
-      //   availability: JSON.stringify(formData.availability), // Convert array to string
-      // };
-
-      // const response = await axios.post(`${MainApi}/inscriptions`, payload);
-
-      let config = {
-        method: 'post',
-        maxBodyLength: Infinity,
-        url: `${MainApi}/inscriptions/`,
-        data : formData
-      };
-
-      axios.request(config)
-      .then((response) => {
-        console.log(JSON.stringify(response.data));
-      })
-  };
+        }
+    } catch (error) {
+        console.error('Error submitting form:', error);
+    }
+};
 
   const getCourses = () => {
     axios.get(`${MainApi}/cours`)
@@ -94,13 +69,13 @@ console.log(formData);
   return (
     <div>
       <div className="contact-container-form grid grid-cols-2 gap-[16px]">
-        <InputContact name={"Full Name"} type={"text"} placeholder={"Enter your name"} onChange={(e) => handleChange("name", e.target.value)} />
-        <InputContact name={"Adress e-mail"} type={"text"} placeholder={"Enter your e-mail address"} onChange={(e) => handleChange("email", e.target.value)} />
-        <InputContact name={"Contact number (WhatsApp Number ) "} type={"text"} placeholder={"+213 000 000 000"} onChange={(e) => handleChange("phone", e.target.value)} />
-        <InputContact name={"City of Residence"} type={"text"} placeholder={"Enter your city"} onChange={(e) => handleChange("city", e.target.value)} />
+        <InputContact name={"Full Name"} type={"text"} placeholder={"Enter your name"} onChange={(e) => setName(e.target.value)} />
+        <InputContact name={"Adress e-mail"} type={"text"} placeholder={"Enter your e-mail address"} onChange={(e) => setEmail(e.target.value)} />
+        <InputContact name={"Contact number (WhatsApp Number ) "} type={"text"} placeholder={"+213 000 000 000"} onChange={(e) => setPhone(e.target.value)} />
+        <InputContact name={"City of Residence"} type={"text"} placeholder={"Enter your city"} onChange={(e) => setCity(e.target.value)} />
         <div className="input-container ">
           <label className="py-4">Age group  </label>
-          <Select onValueChange={(value) => handleChange("age_group", value)}>
+          <Select onValueChange={(value) => setAge(value)}>
             <SelectTrigger className="w-full">
               <SelectValue placeholder={'select your age group'} />
             </SelectTrigger>
@@ -120,7 +95,7 @@ console.log(formData);
 
         <div className="input-container ">
           <label className="py-4">Status  </label>
-          <Select onValueChange={(value) => handleChange("status", value)}>
+          <Select onValueChange={(value) => setStatus(value)}>
             <SelectTrigger className="w-full">
               <SelectValue placeholder={'select your status'} />
             </SelectTrigger>
@@ -135,7 +110,7 @@ console.log(formData);
         </div>
         <div className="input-container  ">
           <label className="py-4">Course  </label>
-          <Select onValueChange={(value) => handleChange("cours_id", value)} >
+          <Select onValueChange={(value) => setCours(value)} >
             <SelectTrigger className="w-full">
               <SelectValue value={courses[0]?.id} placeholder={courses[0]?.title} />
             </SelectTrigger>
@@ -150,7 +125,7 @@ console.log(formData);
         </div>
         <div className="input-container ">
           <label className="py-4">Current Level of Experience  </label>
-          <Select onValueChange={(value) => handleChange("level", value)}>
+          <Select onValueChange={(value) => setLevel(value)}>
             <SelectTrigger className="w-full">
               <SelectValue placeholder={'select your level'} />
             </SelectTrigger>
@@ -169,7 +144,7 @@ console.log(formData);
 
         <div className="input-container col-span-2 ">
           <label className="py-4">Availability for Live Sessions  </label>
-          <Select onValueChange={(value) => handleChange("availability", value)}>
+          <Select onValueChange={(value) => setAvailability(value)}>
             <SelectTrigger className="w-full">
               <SelectValue placeholder={'select your level'} />
             </SelectTrigger>
@@ -186,7 +161,7 @@ console.log(formData);
       
         <div className="col-span-2 p-2 input-container">
         <label className="py-4">Additional Comments   </label>
-          <Textarea placeholder="Type your message here." onChange={(e) => handleChange("message", e.target.value)} />
+          <Textarea placeholder="Type your message here." onChange={(e) => setMessage(e.target.value)} />
         </div>
         <div className="input-container switch-container col-span-2 py-2 ">
           <Switch  />
