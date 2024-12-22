@@ -37,16 +37,22 @@ export function Contact_Form() {
     };
 
     try {
-        // Send data to backend via POST request
-        const response = await axios.post(`${MainApi}/inscriptions`, data);
-        console.log(response.data);
-        if (response.status === 200) {
-            alert("Message sended  successfully!");
-
-        }
-    } catch (error) {
-        console.error('Error submitting form:', error);
-    }
+      const response = await axios.post(`${MainApi}/inscriptions`, data);
+      if (response.status === 201) {
+          alert("Message sent successfully!");
+      } else {
+          console.error('Unexpected response:', response);
+          alert('An unexpected error occurred.');
+      }
+  } catch (error) {
+      console.error('Error submitting form:', error);
+      if (error.response) {
+          alert(`Submission failed: ${error.response.data.message || 'Server error'}`);
+      } else {
+          alert('Submission failed: Unable to connect to the server.');
+      }
+  }
+  
 };
 
   const getCourses = () => {
