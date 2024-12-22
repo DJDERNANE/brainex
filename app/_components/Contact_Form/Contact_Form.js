@@ -32,7 +32,8 @@ export function Contact_Form() {
         name,
         phone,
         message,
-        cours_id
+        cours_id,
+        city
     };
 
     try {
