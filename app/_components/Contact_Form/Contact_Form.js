@@ -39,6 +39,7 @@ export function Contact_Form() {
     try {
         // Send data to backend via POST request
         const response = await axios.post(`${MainApi}/inscriptions`, data);
+        console.log(response.data);
         if (response.status === 200) {
             alert("Message sended  successfully!");
 
