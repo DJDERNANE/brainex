@@ -11,6 +11,7 @@ article {
     border: 1px solid #141217;
     background: rgba(20, 18, 23, 0.76);
     transition: all 0.3s ease-out;   
+    z-index: -1;
 }
 
 article:hover{
@@ -29,7 +30,7 @@ article:hover{
     flex-direction: column;
     justify-content: center;
     color: var(--white-100, #FFF);
-    font-size: 32.672px;
+    font-size: 30px;
     line-height: 40.8px;
     letter-spacing: 0.4px;
 }

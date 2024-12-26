@@ -1,7 +1,7 @@
 "use client "
 import Navbar from "@/app/_components/Navbar/Navbar";
 import WelcomeSection from "@/app/_sections/OilAndGas_Sections/WelcomeSection";
-import FooterSection from "../../_components/FooterSection/FooterSection";
+import FooterSection from "@/app/_components/FooterSection/FooterSection";
 import Why_Brainex from "@/app/_sections/OilAndGas_Sections/Why_Brainex";
 import Plans_Section from "@/app/_sections/OilAndGas_Sections/Plans_Section";
 import Why_us from "@/app/_sections/OilAndGas_Sections/Why_us";

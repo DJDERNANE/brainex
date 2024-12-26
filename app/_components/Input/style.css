@@ -11,6 +11,9 @@
     transition: all 0.3s ease-in;
     border: none;
 }
+.input-container.missed{
+    border: 1px solid red;
+}
 .input-container:hover{
     border-radius: var(--16, 16px);
     border: 1px solid #00C881;

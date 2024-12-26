@@ -7,11 +7,6 @@ const nextConfig = {
             source: '/',
             destination: '/Home',
             permanent: true,
-          },
-          {
-            source: '/admin',
-            destination: 'http://109.176.198.177:8001/admin',
-            permanent: true,
           }
         ]
       },

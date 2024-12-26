@@ -1,28 +1,35 @@
-.sub-menu-container{
+.sub-menu-container {
     border-radius: var(--12, 12px);
     border: 1px solid rgba(255, 255, 255, 0.12);
     background: #141217;
     backdrop-filter: blur(4px);
-    width: 784px;
     height: 502px;
     overflow: hidden;
+    z-index: 1000;
+    width: 100%;
+    margin: auto;
 }
+
 .sub-menu-content {
-    display: flex;
     width: 325px;
     height: 100%;
     padding: var(--20, 20px) 10px;
     align-items: flex-start;
     gap: 10px;
     overflow: scroll;
+    display: flex;
+    flex-direction: column;
 }
-.sub-menu-content .title{
+
+.sub-menu-content .title {
     color: var(--white-100, #FFF);
     font-size: 13.3px;
     font-weight: 600;
-    line-height: 30.6px; /* 230.075% */
+    line-height: 30.6px;
+    /* 230.075% */
     letter-spacing: 0.4px;
 }
+
 .no-scrollbar::-webkit-scrollbar {
     display: none;
     /* For Chrome, Safari, and Edge */
@@ -35,13 +42,13 @@
     scrollbar-width: none;
     /* For Firefox */
 }
-.sub-menu-content .subtitle{
-    color: var(--white-100, #ADABB2);
 
-font-size: 13.3px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0.4px;
+.sub-menu-content .subtitle-submenu {
+    color: var(--white-100, #ADABB2);
+    font-size: 13.3px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.4px;
 }
 
 
@@ -50,16 +57,19 @@ letter-spacing: 0.4px;
     height: 100%;
     width: 100%;
 }
-.sub-menu-item{
+
+.sub-menu-item {
     padding: 20px;
     border-radius: 11px;
-    transition: all 0.5s ;
+    transition: all 0.5s;
 }
-.sub-menu-item:hover{
+
+.sub-menu-item:hover {
     background: var(--segs, linear-gradient(83deg, #00C887 -2.87%, #0500FF 138.65%));
-   
+
 }
-.sub-menu-item:hover .subtitle{
+
+.sub-menu-item:hover .subtitle-submenu {
     color: white;
 }
 
@@ -88,4 +98,3 @@ letter-spacing: 0.4px;
 .fade-out {
     opacity: 0;
 }
-

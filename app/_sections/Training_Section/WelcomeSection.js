@@ -2,11 +2,8 @@ import "./style.css"
 import { ButtonSecondary } from "../../_components/Button/Button";
 export default function WelcomeSection() {
   return (
-    <div className="relative traing-section h-screen overflow-hidden">
-      <div className="absolute top-[0px] right-[0px] w-full h-full  z-10 gradiant-black">
-
-      </div>
-      <div className="relative z-20 mt-[200px] container">
+    <div className="relative traing-section h-screen overflow-hidden z-1">
+      <div className="relative z-1 mt-[200px] container">
         <p className="combridge">
           Cambridge Brainex Academy
         </p>
