@@ -17,7 +17,7 @@ export default function WelcomeSection() {
         Dive Deeper, Think Smarter – <br />
         Master AI & Deep Learning!
         </p>
-        <ButtonSecondary text="Register now"/> 
+        <ButtonSecondary text="Register now" link={"#contact"}/> 
       </div>
     </div>
   );

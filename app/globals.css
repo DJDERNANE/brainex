@@ -144,3 +144,6 @@ body {
   font-weight: var(--font-weight-500, 500);
   line-height: var(--line-height-30, 30px); /* 150% */
 }
+html {
+  scroll-behavior: smooth;
+}

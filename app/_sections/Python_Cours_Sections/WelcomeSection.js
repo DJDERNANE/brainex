@@ -11,11 +11,10 @@ export default function WelcomeSection() {
           Cambridge Brainex Academy
         </p>
         <h1 className="welcome-h1 text-white">
-          Foundations Of  Python <br /> Programming
+          Python for data  <br/> science
         </h1>
         <p className="text-white py-4 welcome-subtitle">
-        Shape Your Coding Path with Python  <br />
-        Fundamentals
+        Slogon : your gateway to Artificial intelligence
         </p>
         <ButtonSecondary text="Register now"/> 
       </div>

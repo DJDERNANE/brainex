@@ -17,7 +17,7 @@ export default function WelcomeSection() {
         Start your journey by acquiring a robust <br />
         technical foundation,
         </p>
-        <ButtonSecondary text="Register now"/> 
+        <ButtonSecondary text="Register now" link={"#contact"}/> 
       </div>
     </div>
   );

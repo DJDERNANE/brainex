@@ -10,7 +10,7 @@ export default function WelcomeSection() {
         <h1 className="welcome-h1 text-white w-[60%]">
         The Leading Algerian School Devoted to the Professions of the Future
         </h1>
-        <ButtonSecondary text="Register now"/> 
+        <ButtonSecondary text="Register now" link={"#contact"}/> 
       </div>
     </div>
   );

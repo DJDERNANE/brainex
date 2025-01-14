@@ -17,7 +17,7 @@ export default function WelcomeSection() {
         Build Smarter Solutions with AI & <br />
         Machine Learning
         </p>
-        <ButtonSecondary text="Register now"/> 
+        <ButtonSecondary text="Register now" link={"#contact"}/> 
       </div>
     </div>
   );
