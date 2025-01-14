@@ -38,7 +38,7 @@ export default function Plans_Section() {
         }
     };
     return (
-        <div className=" pb-[100px] mx-auto container">
+        <div className=" pb-[100px] mx-auto container" id="get_in_touch">
             <div className="grid md:grid-cols-2 text-white py-[70px] items-center">
                 <p className="get-in-touch">
                     Get in touch with us
