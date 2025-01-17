@@ -16,7 +16,7 @@ export default function WelcomeSection() {
         <p className="text-white py-4 welcome-subtitle">
         Slogon : your gateway to Artificial intelligence
         </p>
-        <ButtonSecondary text="Register now"/> 
+        <ButtonSecondary text="Register now" link={"#contact"}/> 
       </div>
     </div>
   );

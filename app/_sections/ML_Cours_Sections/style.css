@@ -10,10 +10,10 @@ background: linear-gradient(93deg, rgba(0,0,0,1) 22%, rgba(0,0,0,0.1517857142857
 }
 .combridge{
     color: var(--white-100, #FFF);
-font-size: 24px;
-font-weight: 400;
-line-height: 150%; /* 36px */
-opacity: 0.6;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    opacity: 0.6;
 }
 .dashboard-container{
     background: rgba(255, 255, 255, 0.04);

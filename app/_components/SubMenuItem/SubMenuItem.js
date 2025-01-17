@@ -25,7 +25,13 @@ export default function SubMenuItem({ subitems, imgs }) {
                             href={item.link}
                             className="sub-menu-item flex gap-4 "
                             key={index}
-                            
+                            onMouseEnter={() => {
+                                setCurrentImageIndex(index);
+                                setFadeClass("fade-in");
+                            }}
+                            onMouseLeave={() => {
+                                setFadeClass("fade-out");
+                            }}
                         >
                             <div className=" w-10" style={{ width: '30px', height: '30px' }}>
                                 <span className="icon " >{item.icon}</span>

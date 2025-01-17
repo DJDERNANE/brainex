@@ -45,7 +45,7 @@ export default function Cours_Section() {
     const items = [
         {
             title: "Foundation Of Python Programming",
-            content:[ "At Brainex, we understand that diving into a new programming language can be both exciting and overwhelming. This section introduces Python, highlighting its simplicity, versatility, and wide-ranging applications You'll learn why Python has become a favorite among developers worldwide."],
+            content:[ "Python for Data Science is an intensive training program designed to equip students with the foundational skills and tools required to enter the rapidly evolving field of Artificial Intelligence (AI). This course focuses on Python, the leading programming language for AI and data science, and its powerful libraries and frameworks"],
         },
         {
             title: "Introduction to python",
