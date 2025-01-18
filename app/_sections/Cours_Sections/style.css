@@ -1,0 +1,210 @@
+
+.gradiant-black{
+background: linear-gradient(93deg, rgba(0,0,0,1) 22%, rgba(0,0,0,0.1517857142857143) 74%);
+}
+.combridge{
+    color: var(--white-100, #FFF);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    opacity: 0.6;
+}
+.dashboard-container{
+    background: rgba(255, 255, 255, 0.04);
+    display: flex;
+    padding: 31px var(--8, 8px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+.acceleration-section{
+    color: var(--secondary-text, #858586);
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
+.training-h1{
+    color: var(--white-100, #FFF);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 60px */
+}
+.subtitle{
+    color: var(--secondary-text, #858586);
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
+.cours-h1{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 121%; /* 38.72px */
+
+}
+.accordion-open{
+    background-color: white !important;
+}
+
+
+
+
+
+
+.welcome-h1 {
+    color: var(--white-100, #FFF);
+    font-size: 61.059px;
+    font-weight: 500;
+    line-height: 88px;
+    /* 125.289% */
+    letter-spacing: 0.4px;
+}
+
+.welcome-subtitle {
+    color: var(--white-100, #FFF);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23.8px;
+    /* 145.691% */
+    letter-spacing: 0.4px;
+
+}
+
+.trust-h {
+    font-size: 26px;
+}
+
+.innovation {
+    background: var(--brand-gradient, linear-gradient(260deg, #00C887 42.34%, #2384FD 120.12%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 61.183px;
+    line-height: 76.5px;
+    letter-spacing: 0.4px;
+   
+}
+
+.innovation-section .welcome-h1 {
+    position: sticky;
+    top: 80px;
+}
+.innovation-section{
+    background: linear-gradient(180deg, rgba(123,63,228,0) 38%, rgba(27, 0, 73, 0.664) 74%);
+
+}
+.services-subtitle {
+    color: #67666E;
+    font-size: 17.5px;
+    line-height: 23.8px;
+    /* 145.691% */
+    letter-spacing: 0.4px;
+    display: flex;
+    width: 507.11px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.services .card {
+    position: relative;
+    width: 100% !important;
+    height: 468px;
+    top: 0 !important;
+}
+
+.services .card .card-title {
+    width: max-content;
+    font-size: 33px;
+}
+
+.services .card .card-subtitle {
+    display: flex;
+    width: 294.45px;
+    height: 142.8px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 16.5px;
+}
+
+.services .article-title {
+    padding: 40px 0px;
+}
+
+.subscribe-section {
+    height: 233px;
+    border-radius: 10px;
+    background: var(--white-100, #FFF);
+    padding: 50px 100px;
+    margin: 200px auto;
+}
+.subscribe-h1{
+    color: #0B132A;
+font-size: 35px;
+line-height: 45px; 
+}
+.expertise-register-h1{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+.subscribe-h5{
+    color: #4F5665;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.subscribe-btn{
+    border-radius: 51px;
+background: var(--brand-gradient, linear-gradient(260deg, #00C887 42.34%, #2384FD 120.12%));
+width: 240px;
+height: 46px;
+flex-shrink: 0;
+
+}
+
+.expertise-register{
+    height: 318px;
+    border-radius: 10px;
+    background: #481fa1;
+    padding: 50px 95px;
+    margin: 200px auto;
+}
+.Expertise-register-desc{
+    color: rgba(255, 255, 255, 0.76);
+
+font-size: 12.906px;
+
+line-height: 21px; /* 162.712% */
+width: 60%;
+}
+.expertise-register-img{
+    position: absolute;
+    bottom: 0;
+    height: 550px;
+    opacity: 0.8;
+    filter: drop-shadow(-7px 1px 31px #000000);
+}
+.faq-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.custom-prev-next-btn{
+    position: absolute;
+    top: -50px;
+    right: 50px;
+}
+.custom-prev-next-btn button{
+    width: 40px;
+    height: 40px;
+    background: #141217;
+    color: white;
+}

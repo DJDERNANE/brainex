@@ -1,4 +1,4 @@
-import AccordionComponent  from "../../_components/Accorion/Accordion"
+import AccordionComponent  from "../../_components/Accordion/Accordion"
 export default function FAQ() {
     const items = [
         {
