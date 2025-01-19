@@ -2,7 +2,7 @@
 import Navbar from "@/app/_components/Navbar/Navbar";
 import { useEffect } from "react";
 import WelcomeSection from "@/app/_sections/Home_Sections/WelcomeSection";
-import Why_us from "@/app/_components/WhyBrainex/Why_Brainex";
+import Why_us from "@/app/_sections/Home_Sections/Why_us";
 import Innovation from "@/app/_sections/Home_Sections/Innovation";
 import Services from "@/app/_sections/Home_Sections/Services";
 import Expertise_Section from "@/app/_sections/Home_Sections/Expertise_Section";
