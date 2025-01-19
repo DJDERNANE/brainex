@@ -1,6 +1,5 @@
 "use client"
 import Navbar from "@/app/_components/Navbar/Navbar";
-import { useEffect } from "react";
 import WelcomeSection from "@/app/_sections/Home_Sections/WelcomeSection";
 import Why_us from "@/app/_sections/Home_Sections/Why_us";
 import Innovation from "@/app/_sections/Home_Sections/Innovation";
@@ -16,7 +15,7 @@ export default function Home() {
 
   return (
     <div className="">
-        <Navbar />
+        <Navbar  />
         <WelcomeSection />
         {/* <Trust_us_Section /> */}
         <Why_us />
