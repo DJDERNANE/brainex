@@ -118,7 +118,8 @@ export default function Navbar() {
             title: "News", path: "javascript:void(0)", icon: <span className='pl-2'><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="6.5" cy="6.43994" r="6" fill="#00C881" fill-opacity="0.45" />
                 <circle cx="2.5" cy="2.5" r="2.5" transform="matrix(1 0 0 -1 3.75 8.90967)" fill="#00C881" />
-            </svg></span>
+            </svg></span>,
+            path: "/News"
         },
         { title: "Blogs", path: "javascript:void(0)" }
     ]
