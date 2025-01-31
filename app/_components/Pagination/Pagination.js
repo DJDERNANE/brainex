@@ -8,9 +8,9 @@ import {
     PaginationPrevious,
   } from "@/components/ui/pagination"
   
-  export function PaginationDemo() {
+  export function PaginationDemo({className = ""}) {
     return (
-      <Pagination className={"mb-6 pagination_content"}>
+      <Pagination className={`${className} pagination_content`}>
         <PaginationContent>
           <PaginationItem>
             <PaginationPrevious href="#" />

@@ -50,6 +50,8 @@ line-height: 150%; /* 36px */
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 60px */
+    width: 50%;
+  margin: auto;
 }
 .subtitle{
     color: var(--secondary-text, #858586);
@@ -71,19 +73,13 @@ line-height: 150%; /* 36px */
     object-fit: contain;
 }
 .yellow-subtitle{
-    color: #DF0;
+    color: #00C881;
 font-size: 18px;
 font-weight: 400;
 line-height: 25.2px; 
 letter-spacing: -0.18px;
 }
 
-.courses-section article:hover{
-    border-radius: var(--12, 12px);
-    border: 1px solid var(--brand-gradient, #00C887);
-    background: linear-gradient(180deg, rgba(10, 10, 13, 0.00) 48%, rgba(10, 10, 13, 0.01) 56%, rgba(10, 10, 13, 0.88) 100%), linear-gradient(180deg, #16141A 0%, #0F0D13 80%);
-    box-shadow: 0px 4px 86px 0px #000;
-}
 
 @media screen and (min-width: 500px) {
     .plans{

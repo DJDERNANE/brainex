@@ -5,7 +5,7 @@ export default function WelcomeSection() {
     <div className="relative traing-section h-screen overflow-hidden z-1">
       <div className="relative z-1 mt-[200px] container">
         <p className="combridge">
-          Cambridge Brainex Academy
+          Cambridge BraineX Academy
         </p>
         <h1 className="welcome-h1 text-white w-[60%]">
         The Leading Algerian School Devoted to the Professions of the Future

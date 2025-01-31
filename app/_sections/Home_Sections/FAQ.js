@@ -1,4 +1,4 @@
-import AccordionComponent  from "../../_components/Accordion/Accordion"
+import AccordionComponentFAQ from "@/app/_components/Accordion/AccordionFAQ"
 export default function FAQ() {
     const items = [
         {
@@ -34,7 +34,7 @@ export default function FAQ() {
                 of people. We can’t wait for you to join us!</p>
             <div className="flex rounded-lg  h-[600px] ">
                 <div className="faq flex-1 overflow-scroll no-scrollbar">
-                    <AccordionComponent items={items}/>
+                    <AccordionComponentFAQ items={items}/>
                 </div>
                 <div className="faq-img flex-1">
                     <img src="./faq.png" alt="brainex" />

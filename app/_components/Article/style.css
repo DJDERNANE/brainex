@@ -11,22 +11,18 @@ article {
     border: 1px solid #141217;
     background: rgba(20, 18, 23, 0.76);
     transition: all 0.3s ease-out;   
-    z-index: -1;
 }
-
-article:hover{
+article.courses:hover{
     border-radius: 12px;
     border: 1px solid var(--brand-gradient, #00C887);
-    background: var(--Hover-style, linear-gradient(180deg, rgba(10, 10, 13, 0.00) 48%, rgba(10, 10, 13, 0.01) 56%, rgba(10, 10, 13, 0.88) 100%), linear-gradient(180deg, #16141A 0%, #0F0D13 80%));
     box-shadow: 0px 4px 86px 0px #000;
 }
-
-
 
 .article-title {
     display: flex;
     width: 294px;
     height: 41px;
+    margin-bottom: 20px;
     flex-direction: column;
     justify-content: center;
     color: var(--white-100, #FFF);
@@ -34,12 +30,23 @@ article:hover{
     line-height: 40.8px;
     letter-spacing: 0.4px;
 }
-
+article{
+    align-items: start;
+}
+.article-title.courses{
+    margin-bottom: 0px;
+    width: 60%;
+}
+.article-title.courses.whyus{
+    width: 100%;
+}
+.article-subtitle.courses{
+    flex-direction: column;
+}
 .article-subtitle {
     display: flex;
     width: 294.45px;
     height: 142.8px;
-    flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     color: #67666E;
@@ -48,16 +55,21 @@ article:hover{
 
     letter-spacing: 0.4px;
 }
+.article-subtitle.whyus {
+   
+    justify-content: start;
+}
 .article-image {
     height: 213px;
-}
+    margin: -50px auto;
+  }
 .innovation-icons{
     width: 80px;
     height: 80px;
     position: absolute;
     top: 35px;
     left: 40px;
-    z-index: 100;
+    z-index: 10;
 }
 @media screen and (max-width: 500px) {
     article{

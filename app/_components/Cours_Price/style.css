@@ -32,6 +32,8 @@ line-height: 150%; /* 36px */
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 60px */
+    width: 50%;
+    margin: auto;
 }
 .subtitle{
     color: var(--secondary-text, #858586);
@@ -212,10 +214,10 @@ width: 60%;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 738px;
+    height: 800px;
     border-radius: 14px;
     overflow: hidden;
-    padding: 40px;
+    padding: 50px 40px;
 }
 .card-cours-price{
     background-color: white;
