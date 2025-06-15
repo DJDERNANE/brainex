@@ -68,7 +68,7 @@ export default function Navbar() {
             },
             {
                 title: "AI in Agriculture ",
-                link: "/oil_gaz",
+                link: "/agriculture",
                 subtitle: "Tradition seamlessly converges with innovation",
                 image: "./agr.png",
                 icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
