@@ -39,8 +39,8 @@ export default function Acceleration_Section() {
     ]
     return (
         <div className="acceleration-section py-[100px] mx-auto w-[50%]" id="accelerate">
-            <p className="text-white text-center subtitle">Why CambridgeBranex?</p>
-            <h1 className="text-center training-h1">Accelerated Learning and Comprehensive Support</h1>
+            <p className="text-white text-center subtitle yellow-subtitle">How it Works ?</p>
+            <h1 className="text-center training-h1">Learn, Practice, and Grow with Us</h1>
             <div className="grid grid-cols-2 grid-rows-2 gap-[20px] py-[80px] ">
                
                 {

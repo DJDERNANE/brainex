@@ -54,12 +54,12 @@ export default function Acceleration_Section() {
     ]
     return (
         <div className="acceleration-section py-[100px] mx-auto container">
-            <p className="text-white text-center subtitle">Why CambridgeBranex?</p>
+            <p className="text-white text-center subtitle yellow-subtitle">Why Cambridge BraineX?</p>
             <h1 className="text-center training-h1">Accelerated Learning and Comprehensive Support</h1>
             <div className="pb-[260px] pt-[80px] " >
                 <img src="/brainex_courses.png" alt="contact brainex" className="mx-auto h-full" />
             </div>
-            <p className="text-white text-center subtitle">Why CambridgeBranex?</p>
+            <p className="text-white text-center subtitle yellow-subtitle">Why Cambridge BraineX?</p>
             <h1 className="text-center training-h1">Accelerated Learning and Comprehensive Support</h1>
             <div className="grid grid-cols-3 grid-rows-2 gap-8 py-[80px] ">
                 {

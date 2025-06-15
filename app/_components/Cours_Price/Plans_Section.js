@@ -1,14 +1,24 @@
 import "./style.css";
 import PlanCard from "../Plan_Card/PlanCard";
 
-export default function Plans_Section({ title, price, desc }) {
+export default function Plans_Section({ title, price, desc, discount, new_price }) {
     return (
         <div className=" py-[100px] mx-auto container" id="planning">
             <h1 className="text-center training-h1">Choose Your Plan</h1>
             <p className="text-white text-center subtitle">Simple pricing. No hidden fees. Advanced features for you education.</p>
 
-            <div className="pt-[150px] pb-[200px] flex justify-start gap-6 plans mt-[200px]">
-                <div className="card-cours-price">
+            <div className="pt-[150px] pb-[200px] flex justify-start gap-6 plans mt-[200px] ">
+
+                <div className="card-cours-price relative z-100">
+                    {
+                        discount &&
+                        <div className="bg-[#f00] absolute w-[266px] px-4 pb-5 top-[-50px] z-10 right-[0px] text-white rounded-xl text-center text-[17px]">
+                            This price is on Discount
+                        </div>
+                    }
+                    <div className="bg-white absolute w-[266px] h-[50px] px-4 pb-5 top-[0px] z-10 right-[0px] text-[#f00]  text-center text-[17px]">
+
+                    </div>
                     <p className="card-cours-price-title ">{title} </p>
                     {/* <p className="card-cours-price-subtitle">
                         An introductory course to master Python, the language of innovation, and apply it to various fields like data science and AI.

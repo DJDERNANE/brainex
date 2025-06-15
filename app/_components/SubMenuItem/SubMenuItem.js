@@ -3,7 +3,7 @@ import "./style.css";
 import { useState } from "react";
 
 export default function SubMenuItem({ subitems, imgs }) {
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [currentImageIndex, setCurrentImageIndex] = useState(1);
     const [fadeClass, setFadeClass] = useState("fade-in");
 
 
@@ -29,9 +29,9 @@ export default function SubMenuItem({ subitems, imgs }) {
                                 index ? setCurrentImageIndex(index) : setCurrentImageIndex(0);
                                 setFadeClass("fade-in");
                             }}
-                            onMouseLeave={() => {
-                                setFadeClass("fade-out");
-                            }}
+                            // onMouseLeave={() => {
+                            //     setFadeClass("fade-out");
+                            // }}
                             
                         >
                             <div className=" w-10" style={{ width: '30px', height: '30px' }}>

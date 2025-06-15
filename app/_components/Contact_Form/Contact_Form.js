@@ -83,7 +83,7 @@ export function Contact_Form() {
   }, [])
   const ages = ["under_18", "18-24", "25-34", "35-44", "45+"]
   const status = ["Student", "Employed", "Unemployed", "self-employed", "Free-lancer", "Other"]
-  const levels = ["Beginner", "Intermediate", "Advanced", "idontknow"]
+  const levels = ["Beginner", "Intermediate", "Advanced", "i don't know"]
   const availabilities = ["weekdays_morning", "weekdays_afternoon", "weekends_morning", "weekends_afternoon"]
 
 

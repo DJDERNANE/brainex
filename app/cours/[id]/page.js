@@ -37,7 +37,7 @@ const Cours = () => {
                     <Cours_Section title={cours.title} sections={cours.sections}/>
                     <Acceleration_Section/>
                     <Why_Brainex/>
-                    <Plans_Section title={cours.title} price={cours.price} desc={cours.description}/>
+                    <Plans_Section title={cours.title} price={cours.price} desc={cours.description} discount={cours.discount} new_price={cours.new_price}/>
                     <Contact_Section/>
                     <FooterSection />
                 </div>

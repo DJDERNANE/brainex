@@ -31,7 +31,7 @@ export default function Why_Brainex() {
     ]
     return (
         <div className=" py-[100px] mx-auto container">
-            <p className="text-white text-center subtitle">Why CambridgeBranex?</p>
+            <p className="text-white text-center subtitle">Why Cambridge BraineX?</p>
             <h1 className="text-center training-h1">Study according to the schedule 
             that suits you .</h1>
             <div className="pt-[150px] pb-[200px] flex justify-between">
