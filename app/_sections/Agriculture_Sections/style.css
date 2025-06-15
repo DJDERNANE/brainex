@@ -480,10 +480,10 @@ width: 60%;
 }
 .gallery-text{
     color: #D4FFED;
-    font-size: 27.234px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
-    line-height: 39.2px; /* 143.936% */
+    line-height: 32px; /* 143.936% */
     width: 100%;
     padding: 30px;
     border-top: 1px solid #CDD7DF;

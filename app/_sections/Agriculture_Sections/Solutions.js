@@ -148,7 +148,7 @@ export default function Solutions() {
                   </p>
                   {/* Divider */}
                   <div className="w-full h-[1px] bg-white/20 my-4"></div>
-                  <img src="agriculture/agr3.png" alt='solution image'/>
+                  <img src="agriculture/agr3.jpg" alt='solution image'/>
                   <ul className="mt-4">
                     <li className="mb-4">
                     Smart perimeter security solution designed specifically for agricultural environments. Leveraging a combination of advanced sensor technology, real-time monitoring, and intelligent alerting. Our system provides proactive protection against intrusions, vandalism, and theft.
@@ -165,7 +165,7 @@ export default function Solutions() {
                   </p>
                   {/* Divider */}
                   <div className="w-full h-[1px] bg-white/20 my-4"></div>
-                  <img src="agriculture/agr4.png" alt='solution image'/>
+                  <img src="agriculture/agr4.jpg" alt='solution image'/>
                   <ul className="mt-4">
                     <li className="mb-4">
                     Smart FenceGuard combines sensor-embedded fencing, surveillance cameras, and real-time data processing to create a proactive security shield around farms. Intrusions, unusual movements, or fence tampering are instantly detected and reported through intelligent alerts.
