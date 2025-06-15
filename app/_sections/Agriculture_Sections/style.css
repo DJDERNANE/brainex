@@ -550,6 +550,10 @@ width: 60%;
     align-items: center;
     flex-shrink: 0;
 }
+.solution-modal{
+    background: rgba(0, 0, 0, 0.88);
+backdrop-filter: blur(6.800000190734863px);
+}
 
 @media screen and (max-width: 500px) {
     .oil_gaz_front{
