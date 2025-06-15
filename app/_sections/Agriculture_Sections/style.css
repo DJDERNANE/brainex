@@ -5,6 +5,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
+        background-position: center;
         align-items: center;
         justify-content: center;
         height: 100vh;
@@ -489,8 +490,8 @@ width: 60%;
 }
 .gallery-title{
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 60px;
+    left: 90px;
     color: #FFF;
     font-size: 46.5px;
     font-style: normal;
@@ -553,6 +554,17 @@ width: 60%;
 .solution-modal{
     background: rgba(0, 0, 0, 0.88);
 backdrop-filter: blur(6.800000190734863px);
+}
+
+.section-container{
+    border-radius: 12px;
+border: 1px dashed rgba(255, 255, 255, 0.10);
+padding: 20px;
+}
+.section-container img{
+    height: 325px;
+    border-radius: 12px;
+    width: 100%;
 }
 
 @media screen and (max-width: 500px) {
