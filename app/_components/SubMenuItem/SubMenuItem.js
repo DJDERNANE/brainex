@@ -1,18 +1,27 @@
 "use client";
 import "./style.css";
 import { useState } from "react";
+import Image from 'next/image';
+import {Storage} from '../../utils/MainApi'
 
 export default function SubMenuItem({ subitems, imgs }) {
-    const [currentImageIndex, setCurrentImageIndex] = useState(1);
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [fadeClass, setFadeClass] = useState("fade-in");
 
+    // Use the picture field from subitems if available, otherwise fall back to imgs array
+    const getBackgroundImage = (index) => {
+        if (subitems[index] && subitems[index].picture) {
+            return subitems[index].picture;
+        }
+        return imgs[index] || imgs[0];
+    };
 
     return (
         <div className="sub-menu-container submenu w-screen absolute top-full left-0 bg-white mt-2 z-10">
             <div className="sub-menu-img flex-1 relative">
                 {/* Image will fade out and in on hover */}
                 <img
-                    src={imgs[currentImageIndex]}
+                    src={Storage + getBackgroundImage(currentImageIndex)}
                     alt={`sub-menu-img-${currentImageIndex}`}
                     key={currentImageIndex}
                     className={`image absolute top-0 left-0 w-full h-full transition-opacity duration-300 ${fadeClass}`}
@@ -26,7 +35,7 @@ export default function SubMenuItem({ subitems, imgs }) {
                             className="sub-menu-item flex gap-4 "
                             key={index}
                             onMouseEnter={() => {
-                                index ? setCurrentImageIndex(index) : setCurrentImageIndex(0);
+                                setCurrentImageIndex(index);
                                 setFadeClass("fade-in");
                             }}
                             // onMouseLeave={() => {
@@ -35,7 +44,13 @@ export default function SubMenuItem({ subitems, imgs }) {
                             
                         >
                             <div className=" w-10" style={{ width: '30px', height: '30px' }}>
-                                <span className="icon " >{item.icon}</span>
+                                {item.icon && (
+                                    <img 
+                                        src={Storage+item.icon} 
+                                        alt={item.title}
+                                        className="icon w-full h-full object-contain"
+                                    />
+                                )}
                             </div>
                             <div className="flex flex-col ">
                                 <span className="title m-0 p-0">{item.title}</span>
