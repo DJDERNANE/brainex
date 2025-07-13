@@ -4,16 +4,16 @@ import Article from "@/app/_components/Article/Article";
 export default function Why_us() {
     const posts = [
         {
-            title: "Innovation Leaders",
-            desc: "We are a team of AI specialists with extensive expertise in Machine Learning and Deep Learning.",
+            title: "Cross-Disciplinary Expertise",
+            desc: "Our team brings together worldclass specialized experts in AI, Robotics, Automation, IoT, and Embedded Systems, combining deep technical knowledge with practical industry experience to deliver robust, integrated solutions.",
         },
         {
-            title: "Proven Excellence",
-            desc: "With a track record of success, Cambridge BraineX has demonstrated its ability to drive tangible results for businesses across industries, showcasing its expertise and reliability in the field of AI.",
+            title: "Practical Innovation",
+            desc: "We transform advanced technologies into real-world solutions across various sectors, successfully addressing the operational challenges of industries such as agriculture, oil & gas, smart logistics, and healthcare.",
         },
         {
             title: "Tailored Solutions",
-            desc: "Cambridge BraineX understands the unique needs of each business and offers tailored AI solutions to address specific challenges, ensuring alignment with strategic objectives",
+            desc: "We approach each project with a client-centric mindset, designing customized solutions that align precisely with business objectives, operational constraints, and long-term strategic goals.",
         }
     ]
     return (
