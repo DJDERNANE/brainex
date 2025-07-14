@@ -3,13 +3,13 @@ FROM node:slim
 WORKDIR /app
 
 # Only copy necessary files
-COPY  package.json .
+COPY package.json package-lock.json .
 
 RUN   npm install 
 
 COPY .  .
 
-# RUN npm run build
+RUN npm run build
 
 EXPOSE 3000
 
