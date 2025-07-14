@@ -58,7 +58,7 @@ export default function FooterSection() {
                         alt="logo"
                     />
                     <p className="leading-relaxed">
-                        Welcome to CambridgeBrainex, where we are at the forefront of AI research and innovation. Our team of experts is dedicated to pushing the boundaries of what's possible in artificial intelligence, unlocking new potentials and reshaping industries.
+                    Welcome to Cambridge BraineX — where AI, robotics, and smart technologies converge to create real-world solutions. Our team of experts transforms innovation into impact, driving progress and delivering intelligent systems that reshape industries.
                     </p>
                 </div>
                 <div className='footer-links'>
@@ -66,7 +66,6 @@ export default function FooterSection() {
                         footerNavs.map((item, idx) => (
                             <ul
                                 key={idx}
-
                             >
                                 <h4 className="">
                                     {item.label}
@@ -157,7 +156,7 @@ export default function FooterSection() {
 
             <div className="mt-8 py-6 border-t items-center justify-center sm:flex">
                 <div className="mt-4 sm:mt-0 text-center text-white">
-                    © 2024 Cambridge Brainex (United Kingdom) Ltd. |  All rights reserved
+                    © 2025 Cambridge Brainex (United Kingdom) Ltd. |  All rights reserved
                 </div>
             </div>
         </footer>

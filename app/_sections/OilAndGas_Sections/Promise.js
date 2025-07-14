@@ -13,7 +13,7 @@ export default function Promise() {
             <div>
                 <p className="ourPromise pt-[50px]">Our Promise</p>
                 <p className="text-center text-white promise-dec py-[50px]">
-                    “Seamless delivery, measurable outcomes, and helping you lead in an increasingly competitive global energy market.”
+                    “Smarter energy operations, where every system is tuned for foresight, every risk is met with resilience, and every decision drives performance.”
                 </p>
             </div>
             
