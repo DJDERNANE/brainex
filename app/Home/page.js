@@ -7,8 +7,8 @@ import Services from "@/app/_sections/Home_Sections/Services";
 import Expertise_Section from "@/app/_sections/Home_Sections/Expertise_Section";
 import FooterSection from "@/app/_components/FooterSection/FooterSection";
 import FAQ from "@/app/_sections/Home_Sections/FAQ";
-import Plans_Section from "@/app/_sections/OilAndGas_Sections/Plans_Section";
-import '@/app/_sections/OilAndGas_Sections/style.css'
+import Plans_Section from "@/app/_sections/Submenu_Page_Sections/Plans_Section";
+import '@/app/_sections/Submenu_Page_Sections/style.css'
 
 
 export default function Home() {

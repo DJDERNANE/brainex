@@ -31,7 +31,7 @@ export default function SubMenuItem({ subitems, imgs }) {
                 <div className="grid grid-cols-2 gap-6">
                     {subitems.map((item, index) => (
                         <a
-                            href={item.link}
+                            href={`/submenu_page/${item.id}`}
                             className="sub-menu-item flex gap-4 "
                             key={index}
                             onMouseEnter={() => {

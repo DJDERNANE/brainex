@@ -1,11 +1,8 @@
 @media screen and (min-width: 500px) {
     .oil-section{
-
-        background-image: url(img.png);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
-        background-position: center;
         align-items: center;
         justify-content: center;
         height: 100vh;
@@ -163,7 +160,7 @@ letter-spacing: var(--letter-spacing--1_2, -1.2px);
 
 .note{
     color: #000;
-font-size: 22px;
+font-size: 31.125px;
 font-style: normal;
 font-weight: var(--font-weight-500, 500);
 line-height: var(--line-height-43_2, 43.2px); /* 138.795% */
@@ -290,7 +287,7 @@ line-height: var(--line-height-33_6, 33.6px); /* 144.516% */
     font-weight: var(--font-weight-500, 500);
 }
 .oil_gaz_paragraph{
-    color: #fff;
+    color: #CDD7DF;
     font-size: 23.063px;
     font-style: normal;
     font-weight: var(--font-weight-500, 500);
@@ -439,7 +436,7 @@ width: 60%;
     color: white;
 }
 .ai{
-    background-image: url(bg.png);
+    background-image: url(bg.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -480,18 +477,18 @@ width: 60%;
 }
 .gallery-text{
     color: #D4FFED;
-    font-size: 25px;
+    font-size: 27.234px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 143.936% */
+    line-height: 39.2px; /* 143.936% */
     width: 100%;
     padding: 30px;
     border-top: 1px solid #CDD7DF;
 }
 .gallery-title{
     position: absolute;
-    top: 60px;
-    left: 90px;
+    top: 40px;
+    left: 40px;
     color: #FFF;
     font-size: 46.5px;
     font-style: normal;
@@ -550,21 +547,6 @@ width: 60%;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-}
-.solution-modal{
-    background: rgba(0, 0, 0, 0.88);
-backdrop-filter: blur(6.800000190734863px);
-}
-
-.section-container{
-    border-radius: 12px;
-border: 1px dashed rgba(255, 255, 255, 0.10);
-padding: 20px;
-}
-.section-container img{
-    height: 325px;
-    border-radius: 12px;
-    width: 100%;
 }
 
 @media screen and (max-width: 500px) {

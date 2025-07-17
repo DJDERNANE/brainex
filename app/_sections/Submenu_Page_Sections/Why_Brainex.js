@@ -14,7 +14,7 @@ export default function Why_Brainex() {
             </g>
           </svg>,
             title: "AI Consultancy",
-            desc: "Guidance on applying AI in agriculture, including IoT sensor networks, computer vision for crop analysis, and intelligent automation strategies.",
+            desc: "Expert guidance to navigate your AI adoption journey and achieve digital transformation.",
 
         },
         {
@@ -29,7 +29,7 @@ export default function Why_Brainex() {
           </svg>
             ,
             title: "Customized In-House Training",
-            desc: "Workshops on AI tools for precision agriculture, data-driven decision-making, and ethical AI practices in farming.",
+            desc: "Empowering your teams with tailored programs to succeed in leveraging AI effectively.",
 
         },
         {
@@ -43,7 +43,7 @@ export default function Why_Brainex() {
             </g>
           </svg>,
            title: "Smart Solution Deployment",
-           desc: "Practical tech solutions for better harvests, smarter planning, and clear traceability from field to market.",
+           desc: "Designing and implementing AI systems aligned with your unique business needs.",
         },
     ]
     return (

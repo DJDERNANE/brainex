@@ -1,7 +1,5 @@
 @media screen and (min-width: 500px) {
     .oil-section{
-
-        background-image: url(img.png);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -83,7 +81,7 @@ letter-spacing: -0.18px;
 
 @media screen and (min-width: 500px) {
     .plans{
-        background-image: url(plan-bg.png);
+        /* background-image: url(plan-bg.png); */
         background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
@@ -438,7 +436,7 @@ width: 60%;
     color: white;
 }
 .ai{
-    background-image: url(bg.jpg);
+    /* background-image: url(bg.jpg); */
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -515,7 +513,7 @@ width: 60%;
     display: inline-block;
     width: 24px;
     height: 25px;
-    background-image: url(right.svg);
+    /* background-image: url(right.svg); */
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 8px;
@@ -537,7 +535,7 @@ width: 60%;
     display: inline-block;
     width: 24px;
     height: 25px;
-    background-image: url(left.svg);
+    /* background-image: url(left.svg); */
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 8px;
