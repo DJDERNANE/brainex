@@ -57,7 +57,7 @@ export default function MobileNavbar({ navigation }) {
                   >
                     {item.submenu.map((subItem) => (
                       <li key={subItem.id} className="py-2">
-                        <a href={subItem.link} className="text-white block w-full">{subItem.title}</a>
+                        <a href={subItem.id} className="text-white block w-full">{subItem.title}</a>
                       </li>
                     ))}
                   </ul>
