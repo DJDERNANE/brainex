@@ -6,11 +6,13 @@ import SubMenuItem from '../SubMenuItem/SubMenuItem';
 import { MainApi } from '../../utils/MainApi';
 
 import { Subtitles } from 'lucide-react';
+import MobileNavbar from './MobileNavbar';
 export default function Navbar() {
 
     const [state, setState] = useState(false)
     const [submenuData, setSubmenuData] = useState([])
     const [loading, setLoading] = useState(true)
+    const [openMobileSubmenu, setOpenMobileSubmenu] = useState(null)
 
     // Fetch submenu data
     useEffect(() => {
@@ -70,7 +72,7 @@ export default function Navbar() {
             title: "Solutions",
             path: "javascript:void(0)",
             icon: <span className='nav-icon pl-2'> <svg width="12" height="8" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.08337 0.541504L4.00004 3.45817L6.91671 0.541504" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M1.08337 0.541504L4.00004 3.45817L6.91671 0.541504" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
             </svg></span>,
             submenu: getSubmenuByParent('solutions')
         },
@@ -81,7 +83,7 @@ export default function Navbar() {
         {
             title: "News", 
             icon: <span className='pl-2'><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6.5" cy="6.43994" r="6" fill="#00C881" fill-opacity="0.45" />
+                <circle cx="6.5" cy="6.43994" r="6" fill="#00C881" fillOpacity="0.45" />
                 <circle cx="2.5" cy="2.5" r="2.5" transform="matrix(1 0 0 -1 3.75 8.90967)" fill="#00C881" />
             </svg></span>,
             path: "#"
@@ -94,8 +96,8 @@ export default function Navbar() {
 
     return (
 
-        <nav className=" border-b w-full md:fixed md:text-sm md:border-none h-[85px]  z-50 ">
-            <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
+        <nav className="border-b w-full fixed top-0 left-0 right-0 md:text-sm md:border-none h-[85px] z-[9999]">
+            <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8 flex justify-between items-center">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
                         <Image
@@ -103,43 +105,36 @@ export default function Navbar() {
                             width={120}
                             height={50}
                             alt="Brainex"
-                            className="w-[168px]"
+                            className="md:w-[168px] w-[140px]"
                         />
                     </a>
-                    <div className="md:hidden">
-                        <button className="text-gray-500 hover:text-gray-800"
-                            onClick={() => setState(!state)}
-                        >
-                            {
-                                state ? (
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-                                    </svg>
-                                ) : (
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                                    </svg>
-                                )
-                            }
-                        </button>
-                    </div>
                 </div>
-                <div className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
+                {/* Mobile Navbar (md:hidden) */}
+                <div className="md:hidden">
+                    <MobileNavbar navigation={navigation} submenuData={submenuData} />
+                </div>
+                {/* Desktop Navbar (md:block) */}
+                <div className="hidden md:block flex-1 pb-3 mt-0 md:pb-0 md:mt-0">
                     <ul className="justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
                         {navigation.map((item, idx) => (
                             <li key={idx} className={`text-white  menu ${item.submenu ? 'submenu-exist' : ''} group`}>
-                                <a href={item.path} className="flex items-center">
-                                    {item.title} {item.icon}
-                                </a>
-                                {item.submenu &&
-                                    (<div className='z-10 blur-bg'>
-                                        <div className='submenu-navbar'>
-                                            <SubMenuItem subitems={item.submenu} imgs={item.submenu.map(subItem => subItem.picture)} />
+                                {item.submenu ? (
+                                    <>
+                                        <a href={item.path} className="flex items-center">
+                                            {item.title} {item.icon}
+                                        </a>
+                                        <div className="z-10 blur-bg md:absolute md:left-0 md:top-full md:w-auto w-full">
+                                            <div className='submenu-navbar'>
+                                                <SubMenuItem subitems={item.submenu} imgs={item.submenu.map(subItem => subItem.picture)} />
+                                            </div>
                                         </div>
-                                    </div>
-                                    )}
+                                    </>
+                                ) : (
+                                    <a href={item.path} className="flex items-center">
+                                        {item.title} {item.icon}
+                                    </a>
+                                )}
                             </li>
-
                         ))}
                         <div className='space-y-3 items-center gap-x-6 md:flex md:space-y-0'>
                             <li>

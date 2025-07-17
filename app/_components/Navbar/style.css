@@ -90,3 +90,9 @@ nav {
 .blur-bg:hover .submenu-navbar {
   display: flex;
 }
+.costum-bg{
+  background-color: rgba(22, 20, 26, 1);
+}
+.nav-icon{
+  padding: 0;
+}
