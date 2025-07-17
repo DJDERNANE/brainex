@@ -4,7 +4,7 @@ export default function WelcomeSection() {
   return (
     <div className="relative bg-[#000002] h-screen overflow-hidden">
       <div className="relative z-20 mt-[100px] md:mt-[200px] container text-center md:text-left">
-        <h1 className="welcome-h1 text-white w-[100%] md:w-[600px]">
+        <h1 className="welcome-h1 pt-[75px] text-white w-[100%] md:w-[600px]">
           Shaping Tomorrow's Intelligence
         </h1>
         <p className="text-white md:py-4 welcome-subtitle py-[40px] w-[500px]">
