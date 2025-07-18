@@ -49,7 +49,7 @@ export default function Solutions({id, title, desc}) {
         <div className='py-[100px] container'>
         <div className='container text-white '>
           <div className='flex md:flex-row flex-col justify-between items-center my-4'>
-            <h1 className='text-[46px] font-bold md:w-[30%] w-[100%]'>{title}</h1>
+            <h1 className='md:text-[46px] text-[36px] font-bold md:w-[30%] w-[100%]'>{title}</h1>
             
             <p className='text-[20px] md:w-[30%] w-[100%]'>
               {desc}

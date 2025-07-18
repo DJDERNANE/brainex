@@ -548,6 +548,14 @@ width: 60%;
     height: 100vh;
 }
 @media screen and (max-width: 500px) {
+    .solutions .swiper-slide img {
+        height: 45% !important;
+    }
+    .gallery-text {
+        font-size: 20px;
+        line-height: 29.2px;
+        padding: 20px;
+    }
     .oil-section {
       
         height: 130vh;
@@ -608,10 +616,7 @@ width: 60%;
         height: max-content !important;
     }
     .solutions{
-        height: 95vh !important;
-    }
-    .solutions .swiper-slide img{
-        height: 60% !important;
+        height: 90vh !important;
     }
     .swiper-button-prev, .swiper-button-next{
         top: 90% !important;
