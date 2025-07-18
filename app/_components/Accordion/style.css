@@ -12,6 +12,7 @@
     line-height: 30.6px; /* 123.871% */
     letter-spacing: 0.4px;
     text-decoration: none;
+    text-align: left;
 }
 .accordion-desc{
     color: rgba(255, 255, 255, 0.60);

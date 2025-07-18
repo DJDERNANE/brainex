@@ -52,7 +52,7 @@ export default function MobileNavbar({ navigation }) {
                   </button>
                   {/* Animated submenu */}
                   <ul
-                    className={`pl-4 py-2 text-center transition-all duration-300 overflow-hidden ${openSubmenu === item.title ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'}`}
+                    className={`pl-4 text-center transition-all duration-300 overflow-hidden ${openSubmenu === item.title ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'}`}
                     style={{maxHeight: openSubmenu === item.title ? '300px' : '0px'}}
                   >
                     {item.submenu.map((subItem) => (
