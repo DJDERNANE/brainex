@@ -45,10 +45,10 @@ export default function Cours_Section() {
 
                     </span>
                     Our program</p>
-                <h1 className="text-center training-h1 w-[60%] mx-auto">Hands-On Learning for Work and Entrepreneurship Integration</h1>
+                <h1 className="text-center training-h1 md:w-[60%] w-full mx-auto">Hands-On Learning for Work and Entrepreneurship Integration</h1>
             </div>
             <div className="">
-                <div className="grid grid-cols-3 grid-rows-2 gap-8 py-[80px]">
+                <div className="md:grid grid-cols-3 grid-rows-2 gap-8 py-[80px]">
                     {courses.map((item, index) => (
                         <a href={`/cours/${item.id}`}>
                             <Article

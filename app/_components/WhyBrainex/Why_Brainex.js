@@ -40,7 +40,7 @@ export default function Why_Brainex() {
             <p className="text-white text-center subtitle yellow-subtitle">Why Cambridge BraineX?</p>
             <h1 className="text-center training-h1">Study according to the schedule 
             that suits you .</h1>
-            <div className="pt-[150px] pb-[200px] flex justify-between">
+            <div className="pt-[150px] pb-[200px] flex md:flex-row flex-col justify-between">
                 {posts.map((item, index) => (
                     <Article
                         key={index}  // Ensure key is passed here

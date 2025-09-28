@@ -38,7 +38,7 @@ line-height: 150%; /* 36px */
     font-weight: 400;
     line-height: 150%; /* 60px */
     width: 50%;
-  margin: auto;
+    margin: auto;
 }
 .subtitle{
     color: var(--secondary-text, #858586);
@@ -239,4 +239,30 @@ width: 60%;
     height: 40px;
     background: #141217;
     color: white;
+}
+
+@media screen and (max-width:500px) {
+  .training-h1{
+    color: var(--white-100, #FFF);
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.welcome-h1 {
+  
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 58px;
+    text-align: center;
+   
+}
+.traing-section{
+
+    background-image: url(training-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;background-position: bottom;
+}
 }

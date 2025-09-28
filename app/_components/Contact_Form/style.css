@@ -30,3 +30,8 @@ textarea{
     color: white;
     outline: none;
 }
+@media screen and (max-width:500px) {
+   .contact-container-form{
+    padding: 5px;
+   }
+}

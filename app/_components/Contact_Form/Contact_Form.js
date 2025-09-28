@@ -89,7 +89,7 @@ export function Contact_Form() {
 
   return (
     <div>
-      <div className="contact-container-form grid grid-cols-2 gap-[16px]" id="contact">
+      <div className="contact-container-form md:grid grid-cols-2 gap-[16px]" id="contact">
         <InputContact missed={missedName} name={"Full Name"} type={"text"} placeholder={"Enter your name"} onChange={(e) => {e.target.value === "" ? setMissedName(true) : setMissedName(false); setName(e.target.value)}} />
         <InputContact missed={missedEmail} name={"Adress e-mail"} type={"text"} placeholder={"Enter your e-mail address"} onChange={(e) => {e.target.value === "" ? setMissedEmail(true) : setMissedEmail(false); setEmail(e.target.value)}} />
         <InputContact missed={missedPhone} name={"Contact number (WhatsApp Number ) "} type={"text"} placeholder={"+213 000 000 000"} onChange={(e) => {e.target.value === "" ? setMissedPhone(true) : setMissedPhone(false); setPhone(e.target.value)}} />

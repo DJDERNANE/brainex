@@ -31,3 +31,19 @@ flex-shrink: 0;
 text-align: left;
 padding: 20px 0px;
 }
+@media screen and (max-width:500px) {
+    .acceleration-section{
+        width: 90% !important;
+        padding: 50px 0px !important;
+    }
+    .acceleration-card{
+        width: 100% !important;
+        margin: auto !important;
+        margin-bottom: 20px !important;
+    }
+    .acceleration-card-subtitle{
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+}
